@@ -1,0 +1,19 @@
+.row-green{
+  width: 100% !important;
+  height: 2px !important;
+  background: #10ac84;
+}
+
+.row-gray{
+  width: 100% !important;
+  height: 2px !important;
+  background: #bebebe;
+}
+
+.row-title{
+  color: #fff;
+  width: fit-content;
+  font-size: 16pt;
+  padding: 5px;
+  background: #10ac84;
+}

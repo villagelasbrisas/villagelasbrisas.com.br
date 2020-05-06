@@ -1,0 +1,44 @@
+.depoimentos{
+  max-width: 690px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.depoimentos h2{
+  background: #10AC84;
+}
+
+.depoimento{
+  max-width: 80%;
+  color: #949494;
+  display: inline-block;
+}
+
+.depoimento p{
+  padding: 40px 0;
+}
+
+.depoimento span{
+  position: relative;
+  bottom: 35px;
+  left: 42%;
+  color: #10AC84;
+}
+
+@media(min-width: 320px){
+  .depoimento{
+    max-width: 80%;
+  }
+}
+
+@media(min-width: 425px){
+  .depoimento{
+    max-width: 83%;
+  }
+}
+
+@media(min-width: 768px){
+  .depoimento{
+    max-width: 100%;
+  }
+}
