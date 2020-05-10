@@ -1,0 +1,42 @@
+.acomodacoes{
+  max-width: 690px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.acomodacoes .acomodacao{
+  width: 100%;
+  min-height: 170px;
+  background: #eee;
+  border: 1px solid #aaa;
+  margin: 30px 0; 
+  padding: 5px;
+}
+
+.acomodacoes .acomodacao h3{
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.acomodacoes .acomodacao .foto{
+  float: left;
+}
+.acomodacoes .acomodacao .foto img{
+  width: 200px;
+  height: 159px;
+  margin-right: 10px;
+}
+
+.acomodacoes .acomodacao .descricao ul{
+  margin: 10px 0;
+}
+.acomodacoes .acomodacao .descricao ul li{
+  display: inline-block;
+}
+.acomodacoes .acomodacao .descricao .fa-check{
+  color: green;
+  margin-right: 5px;
+}
+.acomodacoes .acomodacao .descricao p{
+
+}

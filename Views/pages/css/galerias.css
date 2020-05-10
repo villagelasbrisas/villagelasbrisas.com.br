@@ -1,0 +1,32 @@
+.galerias{
+  max-width: 690px;
+  margin: 25px auto;
+  text-align: center;
+}
+
+.galerias h2{
+  background: #10ac84;
+}
+
+.galerias .capas{
+  padding: 40px 0 0 0;
+}
+
+.galerias .capa{
+  display: inline-block;
+  margin: 13px;
+}
+
+.galerias .capa img{
+  width: 200px;
+}
+
+@media(max-width:736px){
+  .galerias .capa{
+    width: 31%;
+    margin: 2px;
+  }
+  .galerias .capa img{
+    width: 100%;
+  }
+}

@@ -1,0 +1,31 @@
+.regras{
+  max-width: 690px;
+  width: 100%;
+  margin: 30px auto;
+  font-size: 16pt;
+}
+
+.regras .descricao{
+  margin: 30px 0;
+  padding: 0 10px;
+}
+
+.regras .descricao p{
+  margin-bottom: 15px;
+}
+
+.regras .descricao h3{
+  width: fit-content;
+  margin: 40px auto;
+  font-size: 20pt;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.regras .descricao ol{
+  padding-left: 25px;
+}
+
+.regras .descricao ol li{
+  padding: 10px;
+}

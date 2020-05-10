@@ -17,13 +17,13 @@ $mensagem .= "<strong>Saída: </strong> $saida <br>";
 $mensagem .= "<strong>Mensagem: </strong>".$_POST['mensagem'];
 
 $headers =  "Content-Type:text/html; charset=UTF-8\n";
-$headers .= "From:  $nome<$email>\n"; 
-$headers .= "X-Sender:  <$email>\n"; 
+$headers .= "From:  $nome<$email>\n";
+$headers .= "X-Sender:  <$email>\n";
 $headers .= "X-Mailer: PHP  v".phpversion()."\n";
 $headers .= "X-IP:  ".$_SERVER['REMOTE_ADDR']."\n";
-$headers .= "Return-Path:  <$email>\n"; 
+$headers .= "Return-Path:  <$email>\n";
 $headers .= "MIME-Version: 1.0\n";
- 
+
 mail($para, $assunto, $mensagem, $headers);
 
 header('Location: https://www.villagelasbrisas.com.br/reservas');

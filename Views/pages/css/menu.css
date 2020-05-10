@@ -1,0 +1,93 @@
+.white-bar{
+  width: 100%;
+  height: 100px;
+  background: #ffffff;
+}
+.white-bar ul{
+  position: absolute !important;
+  right: 10px;
+  top: 43px;
+}
+.white-bar .logo{
+  position: absolute;
+  left: 25px;
+}
+.enter{
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  font-size: 40px;
+}
+
+.green-bar{
+  width: 100%;
+  height: 68px;
+  background: #10AC84;
+  color: #ffffff;
+  text-align: center;
+}
+.green-bar ul li{
+  display: inline-block;
+  padding: 25px 0;
+}
+.green-bar ul li a{
+  padding: 25px 15px !important;
+}
+.green-bar ul li a:hover{
+  background: #ffffff33;
+  color: #ff9137;
+  border-bottom: 2px solid #ff9f43;
+  transition: 0.5s !important;
+}
+
+@media(max-width: 768.9px){
+  .white-bar{
+    height: 75px;
+  }
+
+  .white-bar .logo{
+    left: unset;
+    right: 10px;
+    top: -15px;
+  }
+
+  .white-bar ul{
+    display: none;
+  }
+
+  .green-bar{
+    display: none !important;
+  }
+
+  .enter{
+    display: block;
+  }
+}
+
+@media(max-width: 874px){
+  .green-bar ul li{
+    padding: 25px 10px;
+  }
+}
+
+/*  REVISAR ISSO DPS */
+
+.mobile-nav{
+  display: none;
+  text-align: center;
+}
+.mobile-nav li{
+  padding: 15px 0;
+}
+#enter:checked ~  #mobile-section .mobile-nav{
+  display: block !important;
+}
+
+
+@media (min-width: 769px){
+
+  #enter:checked ~  #mobile-section .mobile-nav{
+      display: none !important;
+  }
+}

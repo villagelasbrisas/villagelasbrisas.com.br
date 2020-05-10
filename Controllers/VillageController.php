@@ -1,0 +1,14 @@
+<?php
+    class VillageController extends Controller
+    {
+
+        public function __construct()
+		{
+			$this->view = new MainView('home');
+		}
+
+		public function executar(){
+			$this->view->render(array('titulo'=>'Las Brisas - Vera Cruz - BA'));
+		}
+
+    }
