@@ -85,7 +85,7 @@
                 <?php
                     foreach ($this->menuItems as $key => $value) {
                         echo '<li>';
-                            echo '<a href="'.INCLUDE_PATH.strtolower(implode(explode(' ',$value))).'">'.$value.'</a>';
+                            echo '<a class="upper" href="'.INCLUDE_PATH.strtolower(implode(explode(' ',$value))).'">'.$value.'</a>';
                         echo '</li>';
                     }
                 ?>
@@ -108,7 +108,7 @@
                     <?php
                         foreach ($this->menuItems as $key => $value) {
                             echo '<li class="ptb20">';
-                                echo '<a href="'.INCLUDE_PATH.strtolower(implode(explode(' ',$value))).'">'.strtoupper($value).'</a>';
+                                echo '<a class="upper" href="'.INCLUDE_PATH.strtolower(implode(explode(' ',$value))).'">'.strtoupper($value).'</a>';
                             echo '</li>';
                         }
                     ?>

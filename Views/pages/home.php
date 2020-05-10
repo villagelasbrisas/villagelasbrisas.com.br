@@ -38,7 +38,7 @@
             </div>
 
             <div class="village">
-                <img src="misc/img/village.jpg" alt="O village">
+                <img src="<?= INCLUDE_PATH_FULL ?>img/village.jpg" alt="O village">
             </div>
             <p class="font-size-20 taj pt10">
 

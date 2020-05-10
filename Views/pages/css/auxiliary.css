@@ -528,6 +528,10 @@ border-bottom: 2px solid #ff9f43;
 transition: 0.5s !important;
 }
 
+.upper{
+    text-transform: uppercase;
+}
+
 .ver-mais{
   text-align: right;
   margin-top: 20px;
@@ -543,7 +547,7 @@ transition: 0.5s !important;
 .title{
   padding: 15px;
   font-size: 70px;
-  
+
   color: #fff;
   -webkit-text-stroke: 2px #252525;
   text-shadow: #252525 2px 5px 2px;
