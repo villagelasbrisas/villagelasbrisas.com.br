@@ -17,11 +17,11 @@
             <div class="row-green"></div>
 
             <div class="acomodacao">
-                <div class="foto">
-                    <img src="<?= INCLUDE_PATH_FULL ?>img/ap-grande-01.jpg" alt="">
-                </div>
                 <div class="descricao">
                     <h3>Apartamento grande</h3>
+                    <div class="foto">
+                        <img src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_ap-grande-01.jpg" alt="Apartamento grande">
+                    </div>
                     <p>
                         Acomodação projetada para comportar até 05 pessoas, em 01 cama de casal,
                         01 cama de solteiro e 01 bi-cama, com ar-condicionado, ventilador, geladeira, fogão,
@@ -40,11 +40,11 @@
             </div>
 
             <div class="acomodacao">
-                <div class="foto">
-                    <img src="<?= INCLUDE_PATH_FULL ?>img/ap-pequeno-01.jpg" alt="">
-                </div>
                 <div class="descricao">
                     <h3>Apartamento pequeno</h3>
+                    <div class="foto">
+                        <img src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_ap-pequeno-01.jpg" alt="Apartamento pequeno">
+                    </div>
                     <p>
                         Acomodação projetada para comportar até 03 pessoas, em 01 cama de casal e
                         01 cama de solteiro, com ar-condicionado, frigobar, fogão, varanda,
@@ -61,14 +61,14 @@
             </div>
 
             <div class="acomodacao">
-                <div class="foto">
-                    <img src="<?= INCLUDE_PATH_FULL ?>img/ap-familia-01.jpg" alt="">
-                </div>
                 <div class="descricao">
                     <h3>Apartamento família</h3>
+                    <div class="foto">
+                        <img src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_ap-familia-01.jpg" alt="Apartamento família">
+                    </div>
                     <p>
                         Acomodação projetada para comportar até 06 pessoas, em 02 cama de casal e
-                        02 camas de solteiro distribuídas em 02 quartos, com ar-condicionado, galadeira,
+                        02 camas de solteiro distribuídas em 02 quartos, com ar-condicionado, geladeira,
                         fogão, e banheiro privativo. Corresponde à acomodação de número 19.
                     </p>
                     <ul>
@@ -84,11 +84,11 @@
             </div>
 
             <div class="acomodacao">
-                <div class="foto">
-                    <img src="<?= INCLUDE_PATH_FULL ?>img/ap-suite-superior-01.jpg" alt="">
-                </div>
                 <div class="descricao">
                     <h3>Suíte casal superior</h3>
+                    <div class="foto">
+                        <img src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_ap-suite-superior-01.jpg" alt="Suíte casal superior">
+                    </div>
                     <p>
                         Acomodação projetada para comportar até 02 pessoas, em 01 cama de casal,
                         com ar-condicionado, frigobar, varanda e banheiro privativo. Corresponde à
@@ -105,11 +105,11 @@
             </div>
 
             <div class="acomodacao">
-                <div class="foto">
-                    <img src="<?= INCLUDE_PATH_FULL ?>img/ap-suite-quadrupla-01.jpg" alt="">
-                </div>
                 <div class="descricao">
                     <h3>Suíte quádrupla superior</h3>
+                    <div class="foto">
+                        <img src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_ap-suite-quadrupla-01.jpg" alt="Suite quádrupla">
+                    </div>
                     <p>
                         Acomodação projetada para comportar até 04 pessoas, em 01 cama de casal,
                         e 02 camas de solteiro, com ar-condicionado, frigobar, varanda e banheiro
@@ -127,11 +127,11 @@
             </div>
 
             <div class="acomodacao">
-                <div class="foto">
-                    <img src="<?= INCLUDE_PATH_FULL ?>img/ap-suite-terrea-01.jpg" alt="">
-                </div>
                 <div class="descricao">
                     <h3>Suíte térrea</h3>
+                    <div class="foto">
+                        <img src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_ap-suite-terrea-01.jpg" alt="Suíte térrea">
+                    </div>
                     <p>
                         Acomodação projetada para comportar de 02 à 03 pessoas, em 01 cama de casal e
                         01 cama de solteiro distribuídas, com ar-condicionado, frigobar e banheiro
