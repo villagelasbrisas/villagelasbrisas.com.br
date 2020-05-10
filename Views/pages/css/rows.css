@@ -12,7 +12,9 @@
 
 .row-title{
   color: #fff;
-  width: fit-content;
+  width: min-content;
+  max-width: 155px;
+  text-align: initial;
   font-size: 16pt;
   padding: 5px;
   background: #10ac84;
