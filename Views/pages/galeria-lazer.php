@@ -1,17 +1,17 @@
 <main>
     <div id="modal" class="dn" onclick="closePhoto()">
-        <img class="dn" id="photo1" src="<?= INCLUDE_PATH_FULL ?>img/lazer-00.jpg" alt="Foto lazer">
-        <img class="dn" id="photo2" src="<?= INCLUDE_PATH_FULL ?>img/lazer-01.jpg" alt="Foto lazer">
-        <img class="dn" id="photo3" src="<?= INCLUDE_PATH_FULL ?>img/lazer-02.jpg" alt="Foto lazer">
-        <img class="dn" id="photo4" src="<?= INCLUDE_PATH_FULL ?>img/lazer-03.jpg" alt="Foto lazer">
-        <img class="dn" id="photo5" src="<?= INCLUDE_PATH_FULL ?>img/lazer-04.jpg" alt="Foto lazer">
-        <img class="dn" id="photo6" src="<?= INCLUDE_PATH_FULL ?>img/lazer-05.jpg" alt="Foto lazer">
-        <img class="dn" id="photo7" src="<?= INCLUDE_PATH_FULL ?>img/lazer-06.jpg" alt="Foto lazer">
-        <img class="dn" id="photo8" src="<?= INCLUDE_PATH_FULL ?>img/lazer-07.jpg" alt="Foto lazer">
-        <img class="dn" id="photo9" src="<?= INCLUDE_PATH_FULL ?>img/lazer-08.jpg" alt="Foto lazer">
-        <img class="dn" id="photo10" src="<?= INCLUDE_PATH_FULL ?>img/lazer-09.jpg" alt="Foto lazer">
-        <img class="dn" id="photo11" src="<?= INCLUDE_PATH_FULL ?>img/lazer-10.jpg" alt="Foto lazer">
-        <img class="dn" id="photo12" src="<?= INCLUDE_PATH_FULL ?>img/lazer-11.jpg" alt="Foto lazer">
+        <img class="dn" id="photo00" alt="Foto lazer">
+        <img class="dn" id="photo01" alt="Foto lazer">
+        <img class="dn" id="photo02" alt="Foto lazer">
+        <img class="dn" id="photo03" alt="Foto lazer">
+        <img class="dn" id="photo04" alt="Foto lazer">
+        <img class="dn" id="photo05" alt="Foto lazer">
+        <img class="dn" id="photo06" alt="Foto lazer">
+        <img class="dn" id="photo07" alt="Foto lazer">
+        <img class="dn" id="photo08" alt="Foto lazer">
+        <img class="dn" id="photo09" alt="Foto lazer">
+        <img class="dn" id="photo10" alt="Foto lazer">
+        <img class="dn" id="photo11" alt="Foto lazer">
     </div>
 
     <!-- Inicio: galerias -->
@@ -28,63 +28,63 @@
 
         <div class="capas">
             <div class="capa">
-                <a href="#photo1">
-                    <img onclick="openPhoto(1)" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_lazer-00.jpg" alt="Foto lazer">
+                <a href="#photo00">
+                    <img onclick="openPhoto('00')" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_lazer-00.jpg" alt="Foto lazer">
                 </a>
             </div>
             <div class="capa">
-                <a href="#photo2">
-                    <img onclick="openPhoto(2)" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_lazer-01.jpg" alt="Foto lazer">
+                <a href="#photo01">
+                    <img onclick="openPhoto('01')" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_lazer-01.jpg" alt="Foto lazer">
                 </a>
             </div>
             <div class="capa">
-                <a href="#photo3">
-                    <img onclick="openPhoto(3)" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_lazer-02.jpg" alt="Foto lazer">
+                <a href="#photo02">
+                    <img onclick="openPhoto('02')" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_lazer-02.jpg" alt="Foto lazer">
                 </a>
             </div>
             <div class="capa">
-                <a href="#photo4">
-                    <img onclick="openPhoto(4)" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_lazer-03.jpg" alt="Foto lazer">
+                <a href="#photo03">
+                    <img onclick="openPhoto('03')" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_lazer-03.jpg" alt="Foto lazer">
                 </a>
             </div>
             <div class="capa">
-                <a href="#photo5">
-                    <img onclick="openPhoto(5)" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_lazer-04.jpg" alt="Foto lazer">
+                <a href="#photo04">
+                    <img onclick="openPhoto('04')" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_lazer-04.jpg" alt="Foto lazer">
                 </a>
             </div>
             <div class="capa">
-                <a href="#photo6">
-                    <img onclick="openPhoto(6)" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_lazer-05.jpg" alt="Foto lazer">
+                <a href="#photo05">
+                    <img onclick="openPhoto('05')" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_lazer-05.jpg" alt="Foto lazer">
                 </a>
             </div>
             <div class="capa">
-                <a href="#photo7">
-                    <img onclick="openPhoto(7)" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_lazer-06.jpg" alt="Foto lazer">
+                <a href="#photo06">
+                    <img onclick="openPhoto('06')" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_lazer-06.jpg" alt="Foto lazer">
                 </a>
             </div>
             <div class="capa">
-                <a href="#photo8">
-                    <img onclick="openPhoto(8)" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_lazer-07.jpg" alt="Foto lazer">
+                <a href="#photo07">
+                    <img onclick="openPhoto('07')" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_lazer-07.jpg" alt="Foto lazer">
                 </a>
             </div>
             <div class="capa">
-                <a href="#photo9">
-                    <img onclick="openPhoto(9)" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_lazer-08.jpg" alt="Foto lazer">
+                <a href="#photo08">
+                    <img onclick="openPhoto('08')" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_lazer-08.jpg" alt="Foto lazer">
+                </a>
+            </div>
+            <div class="capa">
+                <a href="#photo09">
+                    <img onclick="openPhoto('09')" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_lazer-09.jpg" alt="Foto lazer">
                 </a>
             </div>
             <div class="capa">
                 <a href="#photo10">
-                    <img onclick="openPhoto(10)" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_lazer-09.jpg" alt="Foto lazer">
+                    <img onclick="openPhoto('10')" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_lazer-10.jpg" alt="Foto lazer">
                 </a>
             </div>
             <div class="capa">
                 <a href="#photo11">
-                    <img onclick="openPhoto(11)" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_lazer-10.jpg" alt="Foto lazer">
-                </a>
-            </div>
-            <div class="capa">
-                <a href="#photo12">
-                    <img onclick="openPhoto(12)" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_lazer-11.jpg" alt="Foto lazer">
+                    <img onclick="openPhoto('11')" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_lazer-11.jpg" alt="Foto lazer">
                 </a>
             </div>
         </div>

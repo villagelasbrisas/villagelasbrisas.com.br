@@ -1,17 +1,17 @@
 <main>
     <div id="modal" class="dn" onclick="closePhoto()">
-        <img class="dn" id="photo1" src="<?= INCLUDE_PATH_FULL ?>img/paraquedismo-00.jpg" class="hover-shadow" alt="Foto Reveillon 2019">
-        <img class="dn" id="photo2" src="<?= INCLUDE_PATH_FULL ?>img/paraquedismo-01.jpg" class="hover-shadow" alt="Foto Reveillon 2019">
-        <img class="dn" id="photo3" src="<?= INCLUDE_PATH_FULL ?>img/paraquedismo-02.jpg" class="hover-shadow" alt="Foto Reveillon 2019">
-        <img class="dn" id="photo4" src="<?= INCLUDE_PATH_FULL ?>img/paraquedismo-03.jpg" class="hover-shadow" alt="Foto Reveillon 2019">
-        <img class="dn" id="photo5" src="<?= INCLUDE_PATH_FULL ?>img/paraquedismo-04.jpg" class="hover-shadow" alt="Foto Reveillon 2019">
-        <img class="dn" id="photo6" src="<?= INCLUDE_PATH_FULL ?>img/paraquedismo-05.jpg" class="hover-shadow" alt="Foto Reveillon 2019">
-        <img class="dn" id="photo7" src="<?= INCLUDE_PATH_FULL ?>img/paraquedismo-06.jpg" class="hover-shadow" alt="Foto Reveillon 2019">
-        <img class="dn" id="photo8" src="<?= INCLUDE_PATH_FULL ?>img/paraquedismo-07.jpg" class="hover-shadow" alt="Foto Reveillon 2019">
-        <img class="dn" id="photo9" src="<?= INCLUDE_PATH_FULL ?>img/paraquedismo-08.jpg" class="hover-shadow" alt="Foto Reveillon 2019">
-        <img class="dn" id="photo10" src="<?= INCLUDE_PATH_FULL ?>img/paraquedismo-09.jpg" class="hover-shadow" alt="Foto Reveillon 2019">
-        <img class="dn" id="photo11" src="<?= INCLUDE_PATH_FULL ?>img/paraquedismo-10.jpg" class="hover-shadow" alt="Foto Reveillon 2019">
-        <img class="dn" id="photo12" src="<?= INCLUDE_PATH_FULL ?>img/paraquedismo-11.jpg" class="hover-shadow" alt="Foto Reveillon 2019">
+        <img class="dn" id="photo00" alt="Foto paraquedismo">
+        <img class="dn" id="photo01" alt="Foto paraquedismo">
+        <img class="dn" id="photo02" alt="Foto paraquedismo">
+        <img class="dn" id="photo03" alt="Foto paraquedismo">
+        <img class="dn" id="photo04" alt="Foto paraquedismo">
+        <img class="dn" id="photo05" alt="Foto paraquedismo">
+        <img class="dn" id="photo06" alt="Foto paraquedismo">
+        <img class="dn" id="photo07" alt="Foto paraquedismo">
+        <img class="dn" id="photo08" alt="Foto paraquedismo">
+        <img class="dn" id="photo09" alt="Foto paraquedismo">
+        <img class="dn" id="photo10" alt="Foto paraquedismo">
+        <img class="dn" id="photo11" alt="Foto paraquedismo">
     </div>
     <!-- Inicio: galerias -->
     <section class="galerias">
@@ -26,63 +26,63 @@
 
         <div class="capas">
             <div class="capa">
-                <a href="#photo1">
-                    <img onclick="openPhoto(1)" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_paraquedismo-00.jpg" alt="Foto paraquedismo">
+                <a href="#photo00">
+                    <img onclick="openPhoto('00')" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_paraquedismo-00.jpg" alt="Foto paraquedismo">
                 </a>
             </div>
             <div class="capa">
-                <a href="#photo2">
-                    <img onclick="openPhoto(2)" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_paraquedismo-01.jpg" alt="Foto paraquedismo">
+                <a href="#photo01">
+                    <img onclick="openPhoto('01')" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_paraquedismo-01.jpg" alt="Foto paraquedismo">
                 </a>
             </div>
             <div class="capa">
-                <a href="#photo3">
-                    <img onclick="openPhoto(3)" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_paraquedismo-02.jpg" alt="Foto paraquedismo">
+                <a href="#photo02">
+                    <img onclick="openPhoto('02')" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_paraquedismo-02.jpg" alt="Foto paraquedismo">
                 </a>
             </div>
             <div class="capa">
-                <a href="#photo4">
-                    <img onclick="openPhoto(4)" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_paraquedismo-03.jpg" alt="Foto paraquedismo">
+                <a href="#photo03">
+                    <img onclick="openPhoto('03')" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_paraquedismo-03.jpg" alt="Foto paraquedismo">
                 </a>
             </div>
             <div class="capa">
-                <a href="#photo5">
-                    <img onclick="openPhoto(5)" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_paraquedismo-04.jpg" alt="Foto paraquedismo">
+                <a href="#photo04">
+                    <img onclick="openPhoto('04')" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_paraquedismo-04.jpg" alt="Foto paraquedismo">
                 </a>
             </div>
             <div class="capa">
-                <a href="#photo6">
-                    <img onclick="openPhoto(6)" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_paraquedismo-05.jpg" alt="Foto paraquedismo">
+                <a href="#photo05">
+                    <img onclick="openPhoto('05')" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_paraquedismo-05.jpg" alt="Foto paraquedismo">
                 </a>
             </div>
             <div class="capa">
-                <a href="#photo7">
-                    <img onclick="openPhoto(7)" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_paraquedismo-06.jpg" alt="Foto paraquedismo">
+                <a href="#photo06">
+                    <img onclick="openPhoto('06')" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_paraquedismo-06.jpg" alt="Foto paraquedismo">
                 </a>
             </div>
             <div class="capa">
-                <a href="#photo8">
-                    <img onclick="openPhoto(8)" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_paraquedismo-07.jpg" alt="Foto paraquedismo">
+                <a href="#photo07">
+                    <img onclick="openPhoto('07')" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_paraquedismo-07.jpg" alt="Foto paraquedismo">
                 </a>
             </div>
             <div class="capa">
-                <a href="#photo9">
-                    <img onclick="openPhoto(9)" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_paraquedismo-08.jpg" alt="Foto paraquedismo">
+                <a href="#photo08">
+                    <img onclick="openPhoto('08')" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_paraquedismo-08.jpg" alt="Foto paraquedismo">
+                </a>
+            </div>
+            <div class="capa">
+                <a href="#photo09">
+                    <img onclick="openPhoto('09')" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_paraquedismo-09.jpg" alt="Foto paraquedismo">
                 </a>
             </div>
             <div class="capa">
                 <a href="#photo10">
-                    <img onclick="openPhoto(10)" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_paraquedismo-09.jpg" alt="Foto paraquedismo">
+                    <img onclick="openPhoto('10')" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_paraquedismo-10.jpg" alt="Foto paraquedismo">
                 </a>
             </div>
             <div class="capa">
                 <a href="#photo11">
-                    <img onclick="openPhoto(11)" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_paraquedismo-10.jpg" alt="Foto paraquedismo">
-                </a>
-            </div>
-            <div class="capa">
-                <a href="#photo12">
-                    <img onclick="openPhoto(12)" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_paraquedismo-11.jpg" alt="Foto paraquedismo">
+                    <img onclick="openPhoto('11')" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_paraquedismo-11.jpg" alt="Foto paraquedismo">
                 </a>
             </div>
         </div>
