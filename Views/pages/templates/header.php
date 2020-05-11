@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="<?= INCLUDE_PATH_FULL ?>css/acomodacoes.css">
     <link rel="stylesheet" href="<?= INCLUDE_PATH_FULL ?>css/regras.css">
     <link rel="stylesheet" href="<?= INCLUDE_PATH_FULL ?>css/reservas.css">
+    <link rel="stylesheet" href="<?= INCLUDE_PATH_FULL ?>css/font-awesome/solid.min.css">
     <!-- Titulo -->
 	<title><?= $this->titulo ?></title>
 </head>
