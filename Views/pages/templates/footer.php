@@ -35,9 +35,7 @@
                 </p>
             </div>
 
-            <iframe class="w-100-per h-300-px"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.4068796012184!2d-38.67588596620637!3d-13.03799720544944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x715ff8d6081d23f%3A0xb31493fe00d3bbc0!2sVillage%20Las%20Brisas!5e0!3m2!1spt-BR!2sbr!4v1568762940324!5m2!1spt-BR!2sbr">
-            </iframe>
+            <iframe id="google-maps" class="w-100-per h-300-px"></iframe>
         </div>
 
         <div class="bg-green ptb15 tac font-gray">
@@ -55,6 +53,7 @@
             </p>
         </div>
     </footer>
+    <script src="<?= INCLUDE_PATH_FULL ?>js/loadGoogleMaps.js"></script>
     <script src="<?= INCLUDE_PATH_FULL ?>js/photo.js"></script>
     <script src="<?= INCLUDE_PATH_FULL ?>js/font-awesome/solid.min.js"></script>
     <script src="<?= INCLUDE_PATH_FULL ?>js/font-awesome/fontawesome.min.js"></script>
