@@ -32,7 +32,6 @@
     <link rel="stylesheet" href="<?= INCLUDE_PATH_FULL ?>css/acomodacoes.css">
     <link rel="stylesheet" href="<?= INCLUDE_PATH_FULL ?>css/regras.css">
     <link rel="stylesheet" href="<?= INCLUDE_PATH_FULL ?>css/reservas.css">
-    <link rel="stylesheet" href="<?= INCLUDE_PATH_FULL ?>css/font-awesome/solid.min.css">
     <!-- JS -->
     <script src="<?= INCLUDE_PATH_FULL ?>js/jquery/index.js"></script>
     <!-- Titulo -->
