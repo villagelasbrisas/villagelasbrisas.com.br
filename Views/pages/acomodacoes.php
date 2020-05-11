@@ -1,4 +1,18 @@
     <main>
+        <div id="modal" class="dn" onclick="closePhoto()">
+            <img class="dn" id="photo00" alt="Foto acomodação">
+            <img class="dn" id="photo01" alt="Foto acomodação">
+            <img class="dn" id="photo02" alt="Foto acomodação">
+            <img class="dn" id="photo03" alt="Foto acomodação">
+            <img class="dn" id="photo04" alt="Foto acomodação">
+            <img class="dn" id="photo05" alt="Foto acomodação">
+            <img class="dn" id="photo06" alt="Foto acomodação">
+            <img class="dn" id="photo07" alt="Foto acomodação">
+            <img class="dn" id="photo08" alt="Foto acomodação">
+            <img class="dn" id="photo09" alt="Foto acomodação">
+            <img class="dn" id="photo10" alt="Foto acomodação">
+            <img class="dn" id="photo11" alt="Foto acomodação">
+        </div>
         <!-- Inicio: slider -->
         <section class="slider items-1">
             <h2 class="font-size-0">Banner</h2>
@@ -19,8 +33,10 @@
             <div class="acomodacao">
                 <div class="descricao">
                     <h3>Apartamento grande</h3>
-                    <div class="foto">
-                        <img src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_ap-grande-01.jpg" alt="Apartamento grande">
+                    <div class="capa foto">
+                        <a href="#photo00">
+                            <img onclick="openPhoto('00')" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_ap-grande-01.jpg" alt="Apartamento grande">
+                        </a>
                     </div>
                     <p>
                         Acomodação projetada para comportar até 05 pessoas, em 01 cama de casal,
@@ -42,8 +58,10 @@
             <div class="acomodacao">
                 <div class="descricao">
                     <h3>Apartamento pequeno</h3>
-                    <div class="foto">
-                        <img src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_ap-pequeno-01.jpg" alt="Apartamento pequeno">
+                    <div class="capa foto">
+                        <a href="#photo01">
+                            <img onclick="openPhoto('01')" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_ap-pequeno-01.jpg" alt="Apartamento pequeno">
+                        </a>
                     </div>
                     <p>
                         Acomodação projetada para comportar até 03 pessoas, em 01 cama de casal e
@@ -63,8 +81,10 @@
             <div class="acomodacao">
                 <div class="descricao">
                     <h3>Apartamento família</h3>
-                    <div class="foto">
-                        <img src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_ap-familia-01.jpg" alt="Apartamento família">
+                    <div class="capa foto">
+                        <a href="#photo02">
+                            <img onclick="openPhoto('02')" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_ap-familia-01.jpg" alt="Apartamento família">
+                        </a>
                     </div>
                     <p>
                         Acomodação projetada para comportar até 06 pessoas, em 02 cama de casal e
@@ -86,8 +106,10 @@
             <div class="acomodacao">
                 <div class="descricao">
                     <h3>Suíte casal superior</h3>
-                    <div class="foto">
-                        <img src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_ap-suite-superior-01.jpg" alt="Suíte casal superior">
+                    <div class="capa foto">
+                        <a href="#photo03">
+                            <img onclick="openPhoto('03')" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_ap-suite-superior-01.jpg" alt="Suíte casal superior">
+                        </a>
                     </div>
                     <p>
                         Acomodação projetada para comportar até 02 pessoas, em 01 cama de casal,
@@ -107,8 +129,10 @@
             <div class="acomodacao">
                 <div class="descricao">
                     <h3>Suíte quádrupla superior</h3>
-                    <div class="foto">
-                        <img src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_ap-suite-quadrupla-01.jpg" alt="Suite quádrupla">
+                    <div class="capa foto">
+                        <a href="#photo04">
+                            <img onclick="openPhoto('04')" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_ap-suite-quadrupla-01.jpg" alt="Suíte quádrupla">
+                        </a>
                     </div>
                     <p>
                         Acomodação projetada para comportar até 04 pessoas, em 01 cama de casal,
@@ -129,8 +153,10 @@
             <div class="acomodacao">
                 <div class="descricao">
                     <h3>Suíte térrea</h3>
-                    <div class="foto">
-                        <img src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_ap-suite-terrea-01.jpg" alt="Suíte térrea">
+                    <div class="capa foto">
+                        <a href="#photo05">
+                            <img onclick="openPhoto('05')" class="photo" src="<?= INCLUDE_PATH_FULL ?>img/thumbnails/tn_ap-suite-terrea-01.jpg" alt="Suíte térrea">
+                        </a>
                     </div>
                     <p>
                         Acomodação projetada para comportar de 02 à 03 pessoas, em 01 cama de casal e
