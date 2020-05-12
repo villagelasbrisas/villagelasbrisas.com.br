@@ -1,8 +1,11 @@
 let modal = document.getElementById("modal");
+let photoOpened = 0;
 
 function openPhoto(number){
+    let formattedNumber = ("0" + number).slice(-2);
+    this.photoOpened = formattedNumber;
 
-    let photo = document.getElementById(`photo${number}`);
+    let photo = document.getElementById(`photo${formattedNumber}`);
     let path = window.location.pathname;
     let lastIndex = path.split("/").slice(-1);
 
@@ -12,12 +15,16 @@ function openPhoto(number){
         window.location.protocol + "//"
         + window.location.host
         + localhost + "/Views/pages/img/"
-        + lastIndex + `-${number}.jpg`;
+        + lastIndex + `-${formattedNumber}.jpg`;
 
     photo.src = url;
 
     photo.classList.remove("dn");
     modal.classList.remove("dn");
+
+    if (photo) {
+        return true;
+    }   return false;
 }
 
 function closePhoto(){
@@ -32,4 +39,16 @@ function closePhoto(){
 
     modal.classList.add("dn");
     this.photo.classList.add("dn");
+}
+
+function nextPhoto() {
+    this.photoOpened++;
+    closePhoto();
+    openPhoto(this.photoOpened);
+}
+
+function prevPhoto() {
+    this.photoOpened--;
+    closePhoto();
+    openPhoto(this.photoOpened);
 }

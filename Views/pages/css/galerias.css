@@ -36,6 +36,7 @@
     left: 0;
     top: 0;
 
+    display: inline-block;
     background: rgba(0, 0, 0, 0.7);
 }
 
@@ -44,9 +45,27 @@
     margin: 0 auto;
 
     max-width: 95vw;
-
-    position: relative;
 }
+
+#modal #modal-controlls{
+    width: 95vw;
+    max-width: 690px;
+    margin: 0 auto;
+
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 30px;
+}
+
+#next , #prev , #close{
+    margin: 0 10px;
+    cursor: pointer;
+}
+
 
 @media(max-width:736px){
   .galerias .capa{
@@ -56,16 +75,4 @@
   .galerias .capa img{
     width: 100%;
   }
-}
-
-@media(max-width:500px){
-    #modal img{
-        top: 30%;
-    }
-}
-
-@media(min-width:501px){
-    #modal img{
-        top: 5%;
-    }
 }
