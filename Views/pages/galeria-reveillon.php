@@ -29,7 +29,7 @@
         </div>
         <!-- Inicio: galerias -->
         <section class="galerias">
-            <h2 class="row-title">Reveillon 2019</h2>
+            <h2 class="row-title">Reveillon</h2>
             <div class="row-green"></div>
             <div class="voltar">
               <a href="<?= INCLUDE_PATH ?>galerias">
