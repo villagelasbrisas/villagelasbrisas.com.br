@@ -28,10 +28,10 @@
 }
 
 #modal{
-    width: 98.7vw;
-    height: 200vw;
+    width: 100vw;
+    height: 100vh;
 
-    position: absolute;
+    position: fixed;
     z-index: 10;
     left: 0;
     top: 0;
@@ -46,7 +46,6 @@
     max-width: 95vw;
 
     position: relative;
-    top: 270px;
 }
 
 @media(max-width:736px){
@@ -57,4 +56,16 @@
   .galerias .capa img{
     width: 100%;
   }
+}
+
+@media(max-width:500px){
+    #modal img{
+        top: 30%;
+    }
+}
+
+@media(min-width:501px){
+    #modal img{
+        top: 5%;
+    }
 }
