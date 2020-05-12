@@ -36,7 +36,10 @@
     left: 0;
     top: 0;
 
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     background: rgba(0, 0, 0, 0.7);
 }
 

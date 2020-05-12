@@ -1,5 +1,16 @@
 <main>
-    <div id="modal" class="dn" onclick="closePhoto()">
+    <div id="modal" class="dn">
+        <div id="modal-controlls">
+            <div id="prev" onclick="prevPhoto()">
+                <i class="fas fa-arrow-left"></i>
+            </div>
+            <div id="next" onclick="nextPhoto()">
+                <i class="fas fa-arrow-right"></i>
+            </div>
+            <div id="close" onclick="closePhoto()">
+                X
+            </div>
+        </div>
         <img class="dn" id="photo00" alt="Foto lazer">
         <img class="dn" id="photo01" alt="Foto lazer">
         <img class="dn" id="photo02" alt="Foto lazer">
