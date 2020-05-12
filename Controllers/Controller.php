@@ -1,7 +1,7 @@
 <?php
 
 	include 'Views/MainView.php';
-	include 'Models/ContatoModel.php';
+	include 'Models/ReservasModel.php';
 
 	class Controller
 	{

@@ -1,20 +1,24 @@
 <?php
+
     class ReservasController extends Controller
     {
 
-        public function __construct()
-		{
-			$this->view = new MainView('reservas', 'Reservas - Village Las Brisas');
+        public function executar(){
+			if(isset($_POST['acao'])){
+				ReservasModel::enviarFormulario();
+				echo '<script>location.href="'.INCLUDE_PATH.'reservas/enviado"</script>';
+				die();
+			}
+
+			\Router::rota('reservas/enviado',function(){
+				$this->view = new MainView('email-enviado');
+				$this->view->render(array('titulo'=>'Reservas'));
+			});
+
+			\Router::rota('reservas',function(){
+				$this->view = new MainView('reservas');
+				$this->view->render(array('titulo'=>'Contato'));
+			});
 		}
-
-        public function executar()
-        {
-			$this->view->render(array('titulo'=>'Las Brisas - Vera Cruz - BA'));
-        }
-
-        public function mail()
-        {
-            header('Location: galerias.php');
-        }
 
     }

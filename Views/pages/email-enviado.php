@@ -21,7 +21,7 @@
             <li>Telefone: <a href="tel:+5507141240051">(71) 4124-0051</a></li>
             <li>WhatsApp: <a href="tel:+55071988519487">(71) 98851-9487</a></li>
         </ul>
-
+        <br><h2 class="tac font-size-30 font-green">E-mail enviado!</h2>
         <form  method="post" action="<?= INCLUDE_PATH ?>reservas">
             <label for="">Nome:</label>
             <input type="text" required placeholder="Nome para a reserva" name="nome">
