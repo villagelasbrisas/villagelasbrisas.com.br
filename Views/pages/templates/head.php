@@ -10,6 +10,9 @@
     <meta name="target_country" content="br">
     <meta name="author" content="Guilherme Caires - www.github.com/gcairesdev">
     <meta name="reply-to" content="reservas@villagelasbrisas.com.br">
+    <meta name="keywords" content="village,las brisas,pousada,ilha,Itaparica,Barra Grande,Vera Cruz,Bahia,reservas,hospedagem,barata,hotel">
+    <meta name="description" content="<?= $this->description ?>">
+    <meta name="robots" content="index,follow">
     <!-- Favicons -->
     <link rel="icon" href="<?= INCLUDE_PATH_FULL ?>img/icons/favicon-16.png" sizes="16x16">
     <link rel="icon" href="<?= INCLUDE_PATH_FULL ?>img/icons/favicon-32.png" sizes="32x32">
@@ -18,11 +21,14 @@
     <link rel="icon" href="<?= INCLUDE_PATH_FULL ?>img/icons/favicon-128.png" sizes="128x128">
     <link rel="shortcut icon" href="<?= INCLUDE_PATH_FULL ?>img/favicon.ico" type="image/x-icon"/>
     <!-- CSS -->
-    <link rel="stylesheet" href="<?= INCLUDE_PATH_FULL ?>css/reset.css">
-    <link rel="stylesheet" href="<?= INCLUDE_PATH_FULL ?>css/404.css">
+    <?php
+        foreach($this->css as $value) {
+            echo "<link rel=\"stylesheet\" href=\"" .INCLUDE_PATH_FULL. "css/" .$value. ".css\">";
+        }
+    ?>
     <!-- JS -->
     <script src="<?= INCLUDE_PATH_FULL ?>js/jquery/index.js"></script>
     <!-- Titulo -->
-	<title><?= $this->titulo ?></title>
+	<title><?= $this->title ?></title>
 </head>
 <body>

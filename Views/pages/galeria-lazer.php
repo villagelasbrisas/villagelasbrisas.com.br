@@ -1,3 +1,5 @@
+<?php include('templates/header.php') ?>
+
 <main>
     <div id="modal" class="dn">
         <div id="modal-controlls">

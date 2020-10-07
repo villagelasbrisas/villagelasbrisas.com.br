@@ -1,3 +1,5 @@
+<?php include('templates/header.php') ?>
+
 <main>
     <!-- Inicio: slider -->
     <section class="slider items-1">

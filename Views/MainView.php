@@ -3,24 +3,28 @@
 	class MainView
 	{
 
-		private $fileName;
-		private $header;
-		private $footer;
-        private $titulo;
+		private $pageFile;
+        private $title;
+        private $css;
+        private $scripts;
+        private $description;
+        private $withoutFooter;
 
-		public $menuItems = array('Village','Acomodacoes','Regras', 'Galerias','Reservas');
+		public $menuItems = ['Village', 'Acomodacoes', 'Regras', 'Galerias', 'Reservas'];
 
-		public function __construct($fileName, $titulo = 'Village Las Brisas - Vera Cruz - BA', $header = 'header', $footer = 'footer'){
-			$this->fileName = $fileName;
-			$this->header = $header;
-			$this->footer = $footer;
-			$this->titulo = $titulo;
+		public function __construct($pageFile, $title, $css = [], $scripts = [], $description, $withoutFooter = false){
+			$this->pageFile = $pageFile;
+			$this->title = $title;
+			$this->css = $css;
+			$this->scripts = $scripts;
+			$this->description = $description;
+			$this->withoutFooter = $withoutFooter;
 		}
 
 		public function render($arr = []){
-			include('pages/templates/'.$this->header.'.php');
-			include('pages/'.$this->fileName.'.php');
-			include('pages/templates/'.$this->footer.'.php');
+			include('pages/templates/head.php');
+            include('pages/'.$this->pageFile.'.php');
+            include('pages/templates/footer.php');
 		}
 
 	}
