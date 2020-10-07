@@ -13,7 +13,8 @@
 				$controler = new $url();
 				$controler->executar();
 			}else{
-				die("Não existe esse controller!");
+				$controler = new ErrorController();
+				$controler->executar();
 			}
 		}
 	}
