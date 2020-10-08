@@ -31,4 +31,4 @@
     <!-- Titulo -->
 	<title><?= $this->title ?></title>
 </head>
-<body>
+<body id="container">

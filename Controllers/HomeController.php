@@ -7,13 +7,16 @@
         private $title = 'Village Las Brisas - Vera Cruz, BA';
 
         private $styles = [
-            'slider',
+            'global',
             'menu',
+            'home',
+            'footer'
         ];
 
         private $scripts = [
             'font-awesome/solid.min',
             'font-awesome/fontawesome.min',
+            'toggle-menu',
             'loadGoogleMaps',
             'getButtonIo/index'
         ];
