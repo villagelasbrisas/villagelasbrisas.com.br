@@ -7,9 +7,7 @@
 
         private $title = 'Página não encontrada - Village Las Brisas';
 
-        private $styles = [
-            '404'
-        ];
+        private $styles = ['404'];
 
         private $scripts = [];
 

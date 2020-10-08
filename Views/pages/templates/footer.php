@@ -58,11 +58,17 @@
         </footer>
     ';}
 
-    foreach($this->scripts as $script) {
-        echo "\n<script src=\"" .INCLUDE_PATH_FULL. "js/" .$script. ".js\"></script>";
+    if($this->scripts) {
+        foreach($this->scripts as $script) {
+            echo "\n<script src=\"" .INCLUDE_PATH_FULL. "js/" .$script. ".js\"></script>";
+        }
     }
 
-    echo "\n";
+    if($this->publicScripts){
+        foreach($this->publicScripts as $publicScript) {
+            echo "\n<script src=\"" .INCLUDE_PATH_FULL. "js/" .$publicScript. ".js\"></script>";
+        }
+    }
 ?>
 </body>
 </html>

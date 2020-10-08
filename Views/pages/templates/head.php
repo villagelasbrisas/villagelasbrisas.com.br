@@ -22,8 +22,16 @@
     <link rel="shortcut icon" href="<?= INCLUDE_PATH_FULL ?>img/favicon.ico" type="image/x-icon"/>
     <!-- CSS -->
     <?php
-        foreach($this->css as $value) {
-            echo "<link rel=\"stylesheet\" href=\"" .INCLUDE_PATH_FULL. "css/" .$value. ".css\">";
+        if($this->publicStyles) {
+            foreach($this->publicStyles as $style) {
+                echo "\n<link rel=\"stylesheet\" href=\"" .INCLUDE_PATH_FULL. "css/" .$style. ".css\">";
+            }
+        }
+
+        if($this->css) {
+            foreach($this->css as $cssItem) {
+                echo "\n<link rel=\"stylesheet\" href=\"" .INCLUDE_PATH_FULL. "css/" .$cssItem. ".css\">";
+            }
         }
     ?>
     <!-- JS -->

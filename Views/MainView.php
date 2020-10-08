@@ -10,6 +10,16 @@
         private $description;
         private $withoutFooter;
 
+        public $publicStyles = ['global', 'menu', 'footer'];
+
+        public $publicScripts = [
+            'font-awesome/solid.min',
+            'font-awesome/fontawesome.min',
+            'getButtonIo/index.js',
+            'toggle-menu',
+            'loadGoogleMaps',
+        ];
+
 		public $menuItems = ['Village', 'Acomodacoes', 'Regras', 'Galerias', 'Valores', 'Reservas'];
 
 		public function __construct($pageFile, $title, $css = [], $scripts = [], $description, $withoutFooter = false){
