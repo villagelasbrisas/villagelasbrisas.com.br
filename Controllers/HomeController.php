@@ -6,7 +6,7 @@
 
         private $title = 'Village Las Brisas - Vera Cruz, BA';
 
-        private $styles = ['home'];
+        private $styles = ['home', 'slider'];
 
         private $scripts = [];
 

@@ -1,25 +1,18 @@
-.bg1{
-  background-image: url('../img/slider-01.jpg') !important;
-}
-.bg2{
-  background-image: url('../img/slider-02.jpg') !important;
-}
-.bg3{
-  background-image: url('../img/slider-03.jpg') !important;
-}
-.item{
-  background-position: center;
-  background-size: cover;
-}
-#banner-menor{
-  height: 300px;
+.slider-image-1 {
+  background-image: url('../img/slider-01.jpg');
 }
 
-@media (max-width: 768.9px){
-  .bg1{
-    background-position: 100% 100%;
+.slider-image-2 {
+  background-image: url('../img/slider-02.jpg');
+}
+
+.slider-image-3 {
+  background-image: url('../img/slider-03.jpg');
+}
+
+.item {
     background-size: cover;
-  }
+    background-position: center;
 }
 
 .slider .control-operator:target ~ .controls .control-button {
@@ -150,7 +143,6 @@
   bottom: 0;
   width: 100%;
   text-align: center;
-  /* background: #2e2e2e28; */
 }
 .slider .control-button {
   display: inline-block;

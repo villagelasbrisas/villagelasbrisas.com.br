@@ -1,5 +1,5 @@
 $(window).on("scroll", function(){
-    let element       = $(".depoimentos");
+    let element       = $("#evaluations");
     let element_heigh = element.height();
     let window_heigh  = window.innerHeight;
     let window_scroll = $(this).scrollTop();

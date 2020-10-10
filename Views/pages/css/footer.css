@@ -1,0 +1,85 @@
+/* =================== EVALUATIONS =================== */
+
+
+#evaluations {
+    width: 100%;
+}
+
+.evaluation {
+    height: 130px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #949494;
+}
+
+.evaluation p {
+    color: #727171;
+    text-align: center;
+}
+
+.evaluation h6 {
+    margin-top: 10px;
+    color: var(--green);
+}
+
+@media(max-width: 690px){
+    #evaluations {
+        padding: 0 10px;
+    }
+}
+
+
+/* =================== MAP =================== */
+
+
+#map {
+    margin-top: 50px;
+    width: 100%;
+}
+
+#map-header {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+#map-header a {
+    font-size: 22px;
+}
+
+#map-header .fa-map-marker-alt {
+    color: #EB2720;
+}
+
+#google-maps {
+    width: 100%;
+    height: 300px;
+}
+
+
+/* =================== footer =================== */
+
+
+#footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+    background: var(--green);
+    justify-content: space-around;
+}
+
+#footer p {
+    font-size: 11pt;
+    text-align: center;
+    color: var(--black);
+}
+
+#footer a:hover {
+    color: var(--green-dark);
+}

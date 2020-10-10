@@ -39,4 +39,4 @@
     <!-- Titulo -->
 	<title><?= $this->title ?></title>
 </head>
-<body id="container">
+<body>

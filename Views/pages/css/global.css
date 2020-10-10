@@ -12,10 +12,42 @@ input, textarea { border: 1px solid #ccc; }
 
 body{ background: var(--white); color: var(--black) }
 
-#container {
+.container {
     width: 100%;
     margin: 0 auto;
     max-width: 1440px;
+}
+
+.container-sm {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 690px;
+}
+
+.title-separator {
+    width: 100%;
+    border-bottom: 2px solid var(--green);
+}
+
+.title-separator h2 {
+    font-size: 16pt;
+    padding: 5px 10px;
+    width: fit-content;
+    color: var(--white);
+    background: var(--green);
+}
+
+.more {
+    padding: 5px;
+    margin-top: 15px;
+    width: fit-content;
+    color: var(--white);
+    background: var(--green);
+    border-radius: 10px 0 10px 0;
+}
+
+.more:hover {
+    color: var(--green-dark);
 }
 
 a:hover{ color: var(--green); }
