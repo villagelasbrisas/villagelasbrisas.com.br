@@ -5,7 +5,7 @@
 
         private $title = 'Reservas - Village Las Brisas';
 
-        private $styles = [];
+        private $styles = ['reservations'];
 
         private $scripts = [];
 
@@ -26,7 +26,7 @@
 			});
 
 			\Router::rota('reservas',function(){
-				$this->view = new MainView('reservas', $this->title, $this->styles, $this->scripts, $this->description, $this->withoutFooter);
+				$this->view = new MainView('reservations', $this->title, $this->styles, $this->scripts, $this->description, $this->withoutFooter);
 				$this->view->render();
 			});
 		}

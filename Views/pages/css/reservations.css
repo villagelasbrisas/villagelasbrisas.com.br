@@ -1,0 +1,64 @@
+#reservations {
+    margin: 40px 0;
+}
+
+#reservations .title-separator {
+    margin: 20px 0;
+}
+
+
+@media(max-width: 726.9px) {
+    #reservations {
+        padding: 0 10px;
+    }
+}
+
+
+/* ================== INPUT BLOCK ================== */
+
+
+.input-block {
+    display: flex;
+    margin: 20px 0;
+    flex-direction: column;
+}
+
+.input-block label {
+    display: flex;
+    color: #2682b3;
+    margin-bottom: 10px;
+}
+
+.input-block label p {
+    margin-left: 10px;
+    color: #004085;
+}
+
+.input-block input,
+.input-block textarea {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#send {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="submit"] {
+    width: 50%;
+    cursor: pointer;
+    background: none;
+    transition: 800ms;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-weight: bolder;
+    border: 1px solid #004085;
+}
+
+input[type="submit"]:hover {
+    color: var(--white);
+    background: #004085;
+}
