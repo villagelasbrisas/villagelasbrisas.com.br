@@ -37,6 +37,15 @@ body{ background: var(--white); color: var(--black) }
     background: var(--green);
 }
 
+.alert {
+    width: 100%;
+    padding: 20px;
+    color: #004085;
+    text-align: center;
+    background: #d1ecf1;
+    border: 1px solid #bee5eb;
+}
+
 .more {
     padding: 5px;
     margin-top: 15px;

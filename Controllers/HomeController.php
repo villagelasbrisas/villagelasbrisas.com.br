@@ -2,6 +2,7 @@
 
 	class HomeController extends Controller
 	{
+
         private $fileName = 'home';
 
         private $title = 'Village Las Brisas - Vera Cruz, BA';

@@ -1,0 +1,90 @@
+#allocations {
+    margin-top: 50px;
+}
+
+@media(max-width: 720.9px) {
+    #allocations {
+        padding: 0 15px;
+    }
+}
+
+#allocations .alert {
+    margin: 20px 0;
+}
+
+
+/* =================== ALOCATION =================== */
+
+
+.allocation {
+    margin: 80px 0;
+}
+
+.allocation h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.allocation-content {
+    width: 100%;
+    display: flex;
+}
+
+@media(max-width: 600.9px) {
+    .allocation-content {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .allocation-paragraph {
+        margin-top: 15px;
+    }
+
+    .allocation-paragraph p {
+        margin: 15px 0;
+    }
+
+    .allocation-content a,
+    .allocation-content a img {
+        width: 100%;
+    }
+}
+
+.allocation-content img {
+    width: 250px;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+
+/* =================== ALOCATION PARAGRAPH =================== */
+
+
+.allocation-paragraph {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.allocation-paragraph p {
+    line-height: 20px;
+    text-align: justify;
+}
+
+.allocation-paragraph ul {
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+
+.allocation-paragraph ul li {
+    display: flex;
+    padding: 3px 0;
+    height: fit-content;
+}
+
+.allocation-paragraph .fa-check {
+    margin: 0 5px;
+    color: var(--green);
+}

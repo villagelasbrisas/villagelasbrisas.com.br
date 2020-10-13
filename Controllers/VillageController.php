@@ -1,4 +1,5 @@
 <?php
+
     class VillageController extends Controller
     {
 
@@ -6,7 +7,7 @@
 
         private $title = 'Village Las Brisas - Vera Cruz, BA';
 
-        private $styles = [];
+        private $styles = ['home', 'slider'];
 
         private $scripts = [];
 
@@ -24,3 +25,4 @@
 		}
 
     }
+?>
