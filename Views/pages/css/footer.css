@@ -14,9 +14,13 @@
     border-bottom: 1px solid #949494;
 }
 
-.evaluation p {
+.evaluation a {
     color: #727171;
     text-align: center;
+}
+
+.evaluation a:hover {
+    color: var(--green);
 }
 
 .evaluation h6 {
