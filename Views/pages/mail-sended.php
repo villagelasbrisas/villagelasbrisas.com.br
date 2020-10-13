@@ -8,7 +8,7 @@
 
         <div class="alert">
             <i class="fas fa-exclamation-circle"></i>
-            Crianças com mais de 05 anos, contam como adulto.
+            E-mail enviado!
         </div>
 
         <form method="POST" action="<?= INCLUDE_PATH ?>reservas">

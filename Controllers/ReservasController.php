@@ -14,14 +14,14 @@
         private $withoutFooter = false;
 
         public function executar(){
-			if(isset($_POST['acao'])){
-				ReservasModel::enviarFormulario();
-				echo '<script>location.href="'.INCLUDE_PATH.'reservas/enviado"</script>';
-				die();
+			if(isset($_POST['mail-sended'])){
+                ReservasModel::submitForm();
+
+                echo '<script>location.href="'.INCLUDE_PATH.'reservas/enviado"</script>';
 			}
 
 			\Router::rota('reservas/enviado',function(){
-				$this->view = new MainView('email-enviado', $this->title, $this->styles, $this->scripts, $this->description, $this->withoutFooter);
+				$this->view = new MainView('mail-sended', $this->title, $this->styles, $this->scripts, $this->description, $this->withoutFooter);
 				$this->view->render();
 			});
 
