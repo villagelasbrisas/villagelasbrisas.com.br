@@ -1,0 +1,43 @@
+#rules {
+    margin: 40px 0;
+    font-size: 16pt;
+}
+
+@media(max-width: 700.9px) {
+    #rules {
+        padding: 0 15px;
+    }
+}
+
+#rules .title-separator {
+    margin: 30px 0;
+}
+
+
+/* =============== RULES CONTENT =============== */
+
+
+#rules-content #header-paragraph {
+    text-align: center;
+    text-align: justify;
+}
+
+#rules-content p {
+    margin: 20px 0;
+    line-height: 130%;
+}
+
+#rules-content h3 {
+    margin: 30px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#rules-content ul li {
+    margin: 10px 0;
+}
+
+#rules-content #payment-policy li {
+    margin-bottom: 20px;
+    line-height: 130%;
+}

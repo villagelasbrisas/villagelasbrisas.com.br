@@ -2,11 +2,11 @@
     class RegrasController extends Controller
     {
 
-        private $fileName = 'regras';
+        private $fileName = 'rules';
 
         private $title = 'Regras - Village Las Brisas';
 
-        private $styles = [];
+        private $styles = ['rules'];
 
         private $scripts = [];
 
@@ -24,3 +24,5 @@
 		}
 
     }
+
+?>

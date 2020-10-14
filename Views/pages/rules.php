@@ -1,31 +1,21 @@
 <?php include('templates/header.php') ?>
 
-<main>
-    <!-- Inicio: slider -->
-    <section class="slider items-1">
-        <h2 class="font-size-0">Imagem</h2>
+<main class="container-sm">
+    <section id="rules">
+        <div class="title-separator">
+            <h2>Regras</h2>
+        </div>
 
-        <div id="item-1" class="control-operator"></div>
-
-        <section class="item bg1" id="banner-menor">
-            <h3 class="font-size-0">Primeira imagem</h3>
-        </section>
-
-    </section>
-    <!-- Fim: slider -->
-
-    <section class="regras">
-        <h2 class="row-title">Regras</h2>
-        <div class="row-green"></div>
-
-        <div class="descricao">
-            <p>
+        <div id="rules-content">
+            <p id="header-paragraph">
                 Para que nosso ambiente seja tranquilo e confortável para todos,
                 as regras são excenciais, não como uma forma proibitiva, mas
                 como um meio de organizar e garantir a boa convivência.
             </p>
+
             <h3>Não é permitido:</h3>
-            <ol>
+
+            <ul>
                 <li>Uso da piscina por visitantes.</li>
                 <li>Uso da piscina sem antes tomar uma ducha no chuveiro.</li>
                 <li>Uso de bóias na piscina, com excessão de bóias de braço.</li>
@@ -43,26 +33,41 @@
 
             <h3>Políticas:</h3>
 
-            <p><b>Pagamento:</b></p>
-            <ol>
+            <p>
+                <b>Pagamento:</b>
+            </p>
+
+            <ul id="payment-policy">
                 <li>
-                    <i>Depósito bancário/transferência:</i> depósito de 50% do valor da reserva para garantia
-                    da mesma. Em até 24h do pagamento, enviar o comprovante para o WhatsApp:
-                    (071) 98851-9487
+                    <i>Depósito bancário/transferência:</i> 50% do valor da reserva para garantia
+                    da mesma. Enviar o comprovante para o WhatsApp: <a href="tel:+55071988519487">(71) 9 8851-9487</a>
                 </li>
                 <li>
                     <i>Cartão:</i> aceitamos todas as bandeiras, porém somente pagamento à vista.<br><br>
                 </li>
-            </ol>
+            </ul>
+
             <p>
-                <b>Crianças:</b> crianças de até 05 anos, não paga (sem cama extra). Acima dessa idade,
+                <b>Crianças:</b> Crianças de até 05 anos, não pagam (sem cama extra). A partir dessa idade,
                 é cobrado o valor de adulto.
             </p>
+
             <p>
-                <b>Regime:</b> café da manhã incluso na diária das suítes, servido das
-                08:00 às 10:00, mediante período do ano (geralmente em alta estação ou
-                eventos) e quantidade de hóspedes que desejam o serviço. Custo adicional
-                de 20,00 por pessoa para acomodações com cozinha.
+                <b>Regime:</b>
+
+                Café da manhã servido somente em eventos, mediante combinado.
+                Servido das 08:00 às 10:00, com valor de R$ 20,00 por pessoa.
+            </p>
+
+            <p>
+                <b>Cancelamento:</b>
+
+                Em caso de cancelamento, o valor não será devolvido, este será convertido em crédito para
+                ser usado em outra data, mediante disponibilidade. Deve ser avisado com 05 dias de
+                antecedência, caso contrário não há conversão para cŕedito, ou devolução.
+                <br><br>
+                Caso o hóspede desejar fazer o checkout antes da data prevista, não há devolução do valor,
+                ou crédito na casa.
             </p>
         </div>
     </section>
