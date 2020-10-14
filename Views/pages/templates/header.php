@@ -28,13 +28,29 @@
 
     <nav id="green-nav">
         <ul>
-            <?php
-                foreach ($this->menuItems as $key => $value) {
-                    echo '<li>';
-                        echo '<a href="'.INCLUDE_PATH.strtolower(implode(explode(' ',$value))).'">'.$value.'</a>';
-                    echo '</li>';
-                }
-            ?>
+            <li>
+                <a href="<?= INCLUDE_PATH ?>">Village</a>
+            </li>
+
+            <li>
+                <a href="<?= INCLUDE_PATH ?>acomodacoes">Acomodacoes</a>
+            </li>
+
+            <li>
+                <a href="#rules">Regras</a>
+            </li>
+
+            <li>
+                <a href="<?= INCLUDE_PATH ?>#gallery">Galerias</a>
+            </li>
+
+            <li>
+                <a href="<?= INCLUDE_PATH ?>valores">Valores</a>
+            </li>
+
+            <li>
+                <a href="<?= INCLUDE_PATH ?>reservas">Reservas</a>
+            </li>
         </ul>
     </nav>
 </header>
