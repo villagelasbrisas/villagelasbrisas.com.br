@@ -30,15 +30,9 @@
     align-items: center;
 }
 
-.input-block label span {
+.input-block label img {
     margin-right: 5px;
-    font-size: 120%;
 }
-
-.input-block label p {
-
-}
-
 
 .input-block input,
 .input-block textarea {

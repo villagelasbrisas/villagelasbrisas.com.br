@@ -46,16 +46,15 @@
 #map-header {
     width: 100%;
     display: flex;
+    align-items: center;
     margin-bottom: 10px;
     justify-content: center;
 }
 
 #map-header a {
+    display: flex;
     font-size: 22px;
-}
-
-#map-header .map-marker-alt {
-    color: var(--green);
+    align-items: center;
 }
 
 #google-maps {

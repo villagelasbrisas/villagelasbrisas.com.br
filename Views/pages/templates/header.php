@@ -10,13 +10,22 @@
 
         <ul>
             <li>
-                <a href="https://goo.gl/maps/hRRAmpsSShMK7qVC8" target="_blank"><span>🌍</span> Localização</a>
+                <a href="https://goo.gl/maps/hRRAmpsSShMK7qVC8" target="_blank">
+                    <img src="<?= INCLUDE_PATH_FULL ?>img/icons/location.svg" alt="Localização" >
+                    Localização
+                </a>
             </li>
             <li>
-                <a href="tel:+5507141240051"><span>📞</span> (71) 4124-0051</a>
+                <a href="tel:+5507141240051">
+                    <img src="<?= INCLUDE_PATH_FULL ?>img/icons/phone.svg" alt="Telefone" >
+                    (71) 4124-0051
+                </a>
             </li>
             <li>
-                <a href="tel:+55071988519487"><span>📱</span> (71) 9 8851-9487</a>
+                <a href="tel:+55071988519487">
+                    <img src="<?= INCLUDE_PATH_FULL ?>img/icons/mobile-phone.svg" alt="Celular" >
+                    (71) 9 8851-9487
+                </a>
             </li>
         </ul>
     </nav>

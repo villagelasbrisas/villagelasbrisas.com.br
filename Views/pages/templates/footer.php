@@ -33,7 +33,7 @@
                 <div id="map-header">
                     <a href="https://goo.gl/maps/hRRAmpsSShMK7qVC8">
                         Nossa localização
-                        <span class="map-marker-alt">🌍</span>
+                        <img src="'. INCLUDE_PATH_FULL .'img/icons/location.svg" alt="Localização" >
                     </a>
                 </div>
 
