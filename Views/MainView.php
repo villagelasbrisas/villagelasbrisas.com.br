@@ -15,7 +15,7 @@
         public $publicScripts = [
             'toggle-menu',
             'getButtonIO',
-            'loadGoogleMapxs',
+            'loadGoogleMaps',
         ];
 
 		public function __construct($pageFile, $title, $css = [], $scripts = [], $description, $withoutFooter = false){
