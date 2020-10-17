@@ -1,5 +1,5 @@
 #white-nav {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     transition: 0.5s;
@@ -58,7 +58,7 @@
 
 
 #green-nav {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     min-height: 65px;
