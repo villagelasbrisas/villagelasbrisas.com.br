@@ -34,8 +34,6 @@
             }
         }
     ?>
-    <!-- JS -->
-    <script src="<?= INCLUDE_PATH_FULL ?>js/jquery/index.js"></script>
     <!-- Titulo -->
 	<title><?= $this->title ?></title>
 </head>
