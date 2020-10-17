@@ -13,12 +13,10 @@
         public $publicStyles = ['global', 'menu', 'footer'];
 
         public $publicScripts = [
-            'getButtonIo/index.js',
             'toggle-menu',
-            'loadGoogleMaps',
+            'getButtonIO',
+            'loadGoogleMapxs',
         ];
-
-		public $menuItems = ['Village', 'Acomodacoes', 'Regras', 'Galerias', 'Valores', 'Reservas'];
 
 		public function __construct($pageFile, $title, $css = [], $scripts = [], $description, $withoutFooter = false){
 			$this->pageFile = $pageFile;
