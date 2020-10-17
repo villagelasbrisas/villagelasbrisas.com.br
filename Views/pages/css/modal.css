@@ -1,0 +1,36 @@
+#modal {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    overflow: auto;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(0, 0, 0, 0.8);
+}
+
+#modal img {
+    max-width: 600px;
+    max-height: 480px;
+    border-radius: 10px;
+}
+
+.modal-items {
+    display: flex;
+    flex-direction: column;
+}
+
+#modal .modal-items img {
+    margin-top: 40px;
+}
+
+#modal .modal-items img:last-child {
+    margin-bottom: 60px;
+}
+
+@media(max-width: 620px) {
+    #modal img {
+        width: 95%;
+        margin: 0 auto;
+    }
+}

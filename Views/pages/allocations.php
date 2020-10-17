@@ -13,8 +13,40 @@
 
         <div class="allocation">
             <div class="allocation-content">
-                <a href="">
-                    <img src="<?= INCLUDE_PATH_FULL ?>img/ap-grande-00.jpg" alt="Apartamento grande">
+                <a href="#modal" class="modal-items" onclick="openPhoto(event.target)">
+                    <img
+                        alt="Apartamento grande"
+                        src="<?= INCLUDE_PATH_FULL ?>img/ap-grande-00.jpg"
+                    >
+                    <img
+                        class="dn"
+                        alt="Apartamento grande"
+                        src="<?= INCLUDE_PATH_FULL ?>img/ap-grande-01.jpg"
+                    >
+
+                    <img
+                        class="dn"
+                        alt="Apartamento grande"
+                        src="<?= INCLUDE_PATH_FULL ?>img/ap-grande-02.jpg"
+                    >
+
+                    <img
+                        class="dn"
+                        alt="Apartamento grande"
+                        src="<?= INCLUDE_PATH_FULL ?>img/ap-grande-03.jpg"
+                    >
+
+                    <img
+                        class="dn"
+                        alt="Apartamento grande"
+                        src="<?= INCLUDE_PATH_FULL ?>img/ap-grande-04.jpg"
+                    >
+
+                    <img
+                        class="dn"
+                        alt="Apartamento grande"
+                        src="<?= INCLUDE_PATH_FULL ?>img/ap-grande-05.jpg"
+                    >
                 </a>
 
                 <div class="allocation-paragraph">
@@ -41,8 +73,34 @@
 
         <div class="allocation">
             <div class="allocation-content">
-                <a href="#photo00">
-                    <img src="<?= INCLUDE_PATH_FULL ?>img/ap-pequeno-00.jpg" alt="Apartamento pequeno">
+                <a href="#modal" class="modal-items" onclick="openPhoto(event.target)">
+                    <img
+                        alt="Apartamento pequeno"
+                        src="<?= INCLUDE_PATH_FULL ?>img/ap-pequeno-00.jpg"
+                    >
+                    <img
+                        class="dn"
+                        alt="Apartamento pequeno"
+                        src="<?= INCLUDE_PATH_FULL ?>img/ap-pequeno-01.jpg"
+                    >
+
+                    <img
+                        class="dn"
+                        alt="Apartamento pequeno"
+                        src="<?= INCLUDE_PATH_FULL ?>img/ap-pequeno-02.jpg"
+                    >
+
+                    <img
+                        class="dn"
+                        alt="Apartamento pequeno"
+                        src="<?= INCLUDE_PATH_FULL ?>img/ap-pequeno-03.jpg"
+                    >
+
+                    <img
+                        class="dn"
+                        alt="Apartamento pequeno"
+                        src="<?= INCLUDE_PATH_FULL ?>img/ap-pequeno-04.jpg"
+                    >
                 </a>
 
                 <div class="allocation-paragraph">
@@ -67,8 +125,52 @@
 
         <div class="allocation">
             <div class="allocation-content">
-                <a href="">
-                    <img src="<?= INCLUDE_PATH_FULL ?>img/ap-familia-00.jpg" alt="Apartamento família">
+                <a href="#modal" class="modal-items" onclick="openPhoto(event.target)">
+                    <img
+                        alt="Apartamento familia"
+                        src="<?= INCLUDE_PATH_FULL ?>img/ap-familia-00.jpg"
+                    >
+                    <img
+                        class="dn"
+                        alt="Apartamento familia"
+                        src="<?= INCLUDE_PATH_FULL ?>img/ap-familia-01.jpg"
+                    >
+
+                    <img
+                        class="dn"
+                        alt="Apartamento familia"
+                        src="<?= INCLUDE_PATH_FULL ?>img/ap-familia-02.jpg"
+                    >
+
+                    <img
+                        class="dn"
+                        alt="Apartamento familia"
+                        src="<?= INCLUDE_PATH_FULL ?>img/ap-familia-03.jpg"
+                    >
+
+                    <img
+                        class="dn"
+                        alt="Apartamento familia"
+                        src="<?= INCLUDE_PATH_FULL ?>img/ap-familia-04.jpg"
+                    >
+
+                    <img
+                        class="dn"
+                        alt="Apartamento familia"
+                        src="<?= INCLUDE_PATH_FULL ?>img/ap-familia-05.jpg"
+                    >
+
+                    <img
+                        class="dn"
+                        alt="Apartamento familia"
+                        src="<?= INCLUDE_PATH_FULL ?>img/ap-familia-06.jpg"
+                    >
+
+                    <img
+                        class="dn"
+                        alt="Apartamento familia"
+                        src="<?= INCLUDE_PATH_FULL ?>img/ap-familia-07.jpg"
+                    >
                 </a>
 
                 <div class="allocation-paragraph">
@@ -95,8 +197,34 @@
 
         <div class="allocation">
             <div class="allocation-content">
-                <a href="">
-                    <img src="<?= INCLUDE_PATH_FULL ?>img/suite-casal-superior-00.jpg" alt="Suíte casal superior">
+                <a href="#modal" class="modal-items" onclick="openPhoto(event.target)">
+                    <img
+                        alt="Suíte casal superior"
+                        src="<?= INCLUDE_PATH_FULL ?>img/suite-casal-superior-00.jpg"
+                    >
+                    <img
+                        class="dn"
+                        alt="Suíte casal superior"
+                        src="<?= INCLUDE_PATH_FULL ?>img/suite-casal-superior-01.jpg"
+                    >
+
+                    <img
+                        class="dn"
+                        alt="Suíte casal superior"
+                        src="<?= INCLUDE_PATH_FULL ?>img/suite-casal-superior-02.jpg"
+                    >
+
+                    <img
+                        class="dn"
+                        alt="Suíte casal superior"
+                        src="<?= INCLUDE_PATH_FULL ?>img/suite-casal-superior-03.jpg"
+                    >
+
+                    <img
+                        class="dn"
+                        alt="Suíte casal superior"
+                        src="<?= INCLUDE_PATH_FULL ?>img/suite-casal-superior-04.jpg"
+                    >
                 </a>
 
                 <div class="allocation-paragraph">
@@ -120,8 +248,34 @@
 
         <div class="allocation">
             <div class="allocation-content">
-                <a href="">
-                    <img src="<?= INCLUDE_PATH_FULL ?>img/suite-quadrupla-superior-00.jpg" alt="Suíte quádrupla superior">
+                <a href="#modal" class="modal-items" onclick="openPhoto(event.target)">
+                    <img
+                        alt="Suíte quadrupla superior"
+                        src="<?= INCLUDE_PATH_FULL ?>img/suite-quadrupla-superior-00.jpg"
+                    >
+                    <img
+                        class="dn"
+                        alt="Suíte quadrupla superior"
+                        src="<?= INCLUDE_PATH_FULL ?>img/suite-quadrupla-superior-01.jpg"
+                    >
+
+                    <img
+                        class="dn"
+                        alt="Suíte quadrupla superior"
+                        src="<?= INCLUDE_PATH_FULL ?>img/suite-quadrupla-superior-02.jpg"
+                    >
+
+                    <img
+                        class="dn"
+                        alt="Suíte quadrupla superior"
+                        src="<?= INCLUDE_PATH_FULL ?>img/suite-quadrupla-superior-03.jpg"
+                    >
+
+                    <img
+                        class="dn"
+                        alt="Suíte quadrupla superior"
+                        src="<?= INCLUDE_PATH_FULL ?>img/suite-quadrupla-superior-04.jpg"
+                    >
                 </a>
 
                 <div class="allocation-paragraph">
@@ -147,8 +301,34 @@
 
         <div class="allocation">
             <div class="allocation-content">
-                <a href="">
-                    <img src="<?= INCLUDE_PATH_FULL ?>img/suite-terrea-00.jpg" alt="Suíte térrea">
+                <a href="#modal" class="modal-items" onclick="openPhoto(event.target)">
+                    <img
+                        alt="Suíte térrea"
+                        src="<?= INCLUDE_PATH_FULL ?>img/suite-terrea-00.jpg"
+                    >
+                    <img
+                        class="dn"
+                        alt="Suíte térrea"
+                        src="<?= INCLUDE_PATH_FULL ?>img/suite-terrea-01.jpg"
+                    >
+
+                    <img
+                        class="dn"
+                        alt="Suíte térrea"
+                        src="<?= INCLUDE_PATH_FULL ?>img/suite-terrea-02.jpg"
+                    >
+
+                    <img
+                        class="dn"
+                        alt="Suíte térrea"
+                        src="<?= INCLUDE_PATH_FULL ?>img/suite-terrea-03.jpg"
+                    >
+
+                    <img
+                        class="dn"
+                        alt="Suíte térrea"
+                        src="<?= INCLUDE_PATH_FULL ?>img/suite-terrea-04.jpg"
+                    >
                 </a>
 
                 <div class="allocation-paragraph">

@@ -44,9 +44,9 @@
         margin: 15px 0;
     }
 
-    .allocation-content a,
     .allocation-content a img {
         width: 100%;
+        margin: 0;
     }
 }
 

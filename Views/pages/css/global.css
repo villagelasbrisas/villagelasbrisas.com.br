@@ -59,6 +59,10 @@ body{ background: var(--white); color: var(--black) }
     color: var(--green-dark);
 }
 
+.dn {
+    display: none;
+}
+
 a:hover{ color: var(--green); }
 a { color: inherit; text-decoration: none; }
 
