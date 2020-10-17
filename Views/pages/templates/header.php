@@ -5,23 +5,18 @@
                 <img src="<?= INCLUDE_PATH_FULL ?>img/logo.png" alt="Logo">
             </a>
 
-            <div id="toggle-menu">
-                <i class="fas fa-bars"></i>
-            </div>
+            <div id="toggle-menu">☰</div>
         </div>
 
         <ul>
             <li>
-                <i class="fas fa-map-marker-alt"></i>
-                <a href="https://goo.gl/maps/hRRAmpsSShMK7qVC8" target="_blank">Localização</a>
+                <a href="https://goo.gl/maps/hRRAmpsSShMK7qVC8" target="_blank"><span>🌍</span> Localização</a>
             </li>
             <li>
-                <i class="fas fa-phone-alt"></i>
-                <a href="tel:+5507141240051">(71) 4124-0051</a>
+                <a href="tel:+5507141240051"><span>📞</span> (71) 4124-0051</a>
             </li>
             <li>
-                <i class="fas fa-mobile-alt"></i>
-                <a href="tel:+55071988519487">(71) 9 8851-9487</a>
+                <a href="tel:+55071988519487"><span>📱</span> (71) 9 8851-9487</a>
             </li>
         </ul>
     </nav>

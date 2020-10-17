@@ -25,14 +25,20 @@
 
 .input-block label {
     display: flex;
-    color: #2682b3;
+    color: #004085;
     margin-bottom: 10px;
+    align-items: center;
+}
+
+.input-block label span {
+    margin-right: 5px;
+    font-size: 120%;
 }
 
 .input-block label p {
-    margin-left: 10px;
-    color: #004085;
+
 }
+
 
 .input-block input,
 .input-block textarea {

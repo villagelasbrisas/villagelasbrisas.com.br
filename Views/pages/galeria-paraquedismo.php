@@ -4,10 +4,8 @@
     <div id="modal" class="dn">
         <div id="modal-controlls">
             <div id="prev" onclick="prevPhoto()">
-                <i class="fas fa-arrow-left"></i>
             </div>
             <div id="next" onclick="nextPhoto()">
-                <i class="fas fa-arrow-right"></i>
             </div>
             <div id="close" onclick="closePhoto()">
                 X
@@ -32,7 +30,7 @@
         <div class="row-green"></div>
         <div class="voltar">
             <a href="<?= INCLUDE_PATH ?>galerias">
-            <i class="fas fa-long-arrow-alt-left"></i>
+            ⬅
             <h3>Voltar</h3>
             </a>
         </div>

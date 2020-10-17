@@ -84,7 +84,7 @@
     height: fit-content;
 }
 
-.allocation-paragraph .fa-check {
+.allocation-paragraph .check {
     margin: 0 5px;
     color: var(--green);
 }

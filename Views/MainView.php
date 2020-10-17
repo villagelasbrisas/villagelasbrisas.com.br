@@ -13,8 +13,6 @@
         public $publicStyles = ['global', 'menu', 'footer'];
 
         public $publicScripts = [
-            'font-awesome/solid.min',
-            'font-awesome/fontawesome.min',
             'getButtonIo/index.js',
             'toggle-menu',
             'loadGoogleMaps',

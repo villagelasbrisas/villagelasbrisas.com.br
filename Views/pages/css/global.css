@@ -40,10 +40,18 @@ body{ background: var(--white); color: var(--black) }
 .alert {
     width: 100%;
     padding: 20px;
+    display: flex;
     color: #004085;
     text-align: center;
+    align-items: center;
     background: #d1ecf1;
+    justify-content: center;
     border: 1px solid #bee5eb;
+}
+
+.alert span {
+    font-size: 170%;
+    margin: 0 5px;
 }
 
 .more {

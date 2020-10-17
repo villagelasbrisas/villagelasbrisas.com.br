@@ -54,8 +54,8 @@
     font-size: 22px;
 }
 
-#map-header .fa-map-marker-alt {
-    color: #EB2720;
+#map-header .map-marker-alt {
+    color: var(--green);
 }
 
 #google-maps {

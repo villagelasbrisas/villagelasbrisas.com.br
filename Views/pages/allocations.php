@@ -7,8 +7,7 @@
         </div>
 
         <div class="alert">
-            <i class="fas fa-exclamation-circle"></i>
-            Toque nas imagens para vê-las maior.
+            <span>⚠</span> Toque nas imagens para vê-las maior.
         </div>
 
         <div class="allocation">
@@ -59,13 +58,13 @@
                     </p>
 
                     <ul>
-                        <li><i class="fas fa-check"></i>Ar-condicionado</li>
-                        <li><i class="fas fa-check"></i>Ventilador</li>
-                        <li><i class="fas fa-check"></i>Televisão</li>
-                        <li><i class="fas fa-check"></i>Geladeira</li>
-                        <li><i class="fas fa-check"></i>Fogão</li>
-                        <li><i class="fas fa-check"></i>Sala de estar</li>
-                        <li><i class="fas fa-check"></i>Banheiro privativo</li>
+                        <li><span class="check">✔</span> Ar-condicionado</li>
+                        <li><span class="check">✔</span> Ventilador</li>
+                        <li><span class="check">✔</span> Televisão</li>
+                        <li><span class="check">✔</span> Geladeira</li>
+                        <li><span class="check">✔</span> Fogão</li>
+                        <li><span class="check">✔</span> Sala de estar</li>
+                        <li><span class="check">✔</span> Banheiro privativo</li>
                     </ul>
                 </div>
             </div>
@@ -113,11 +112,11 @@
                     </p>
 
                     <ul>
-                        <li><i class="fas fa-check"></i>Ar-condicionado</li>
-                        <li><i class="fas fa-check"></i>Televisão</li>
-                        <li><i class="fas fa-check"></i>Frigobar</li>
-                        <li><i class="fas fa-check"></i>Fogão</li>
-                        <li><i class="fas fa-check"></i>Banheiro privativo</li>
+                        <li><span class="check">✔</span> Ar-condicionado</li>
+                        <li><span class="check">✔</span> Televisão</li>
+                        <li><span class="check">✔</span> Frigobar</li>
+                        <li><span class="check">✔</span> Fogão</li>
+                        <li><span class="check">✔</span> Banheiro privativo</li>
                     </ul>
                 </div>
             </div>
@@ -183,13 +182,13 @@
                     </p>
 
                     <ul>
-                        <li><i class="fas fa-check"></i>Ar-condicionado</li>
-                        <li><i class="fas fa-check"></i>Televisão</li>
-                        <li><i class="fas fa-check"></i>Geladeira</li>
-                        <li><i class="fas fa-check"></i>Fogão</li>
-                        <li><i class="fas fa-check"></i>02 quartos</li>
-                        <li><i class="fas fa-check"></i>Sala de estar</li>
-                        <li><i class="fas fa-check"></i>Banheiro privativo</li>
+                        <li><span class="check">✔</span> Ar-condicionado</li>
+                        <li><span class="check">✔</span> Televisão</li>
+                        <li><span class="check">✔</span> Geladeira</li>
+                        <li><span class="check">✔</span> Fogão</li>
+                        <li><span class="check">✔</span> 02 quartos</li>
+                        <li><span class="check">✔</span> Sala de estar</li>
+                        <li><span class="check">✔</span> Banheiro privativo</li>
                     </ul>
                 </div>
             </div>
@@ -236,11 +235,11 @@
                     </p>
 
                     <ul>
-                        <li><i class="fas fa-check"></i>Ar-condicionado</li>
-                        <li><i class="fas fa-check"></i>Televisão</li>
-                        <li><i class="fas fa-check"></i>Frigobar</li>
-                        <li><i class="fas fa-check"></i>Varanda</li>
-                        <li><i class="fas fa-check"></i>Banheiro privativo</li>
+                        <li><span class="check">✔</span> Ar-condicionado</li>
+                        <li><span class="check">✔</span> Televisão</li>
+                        <li><span class="check">✔</span> Frigobar</li>
+                        <li><span class="check">✔</span> Varanda</li>
+                        <li><span class="check">✔</span> Banheiro privativo</li>
                     </ul>
                 </div>
             </div>
@@ -288,12 +287,12 @@
                     </p>
 
                     <ul>
-                        <li><i class="fas fa-check"></i>Ar-condicionado</li>
-                        <li><i class="fas fa-check"></i>Televisão</li>
-                        <li><i class="fas fa-check"></i>Frigobar</li>
-                        <li><i class="fas fa-check"></i>Varanda</li>
-                        <li><i class="fas fa-check"></i>02 quartos</li>
-                        <li><i class="fas fa-check"></i>Banheiro privativo</li>
+                        <li><span class="check">✔</span> Ar-condicionado</li>
+                        <li><span class="check">✔</span> Televisão</li>
+                        <li><span class="check">✔</span> Frigobar</li>
+                        <li><span class="check">✔</span> Varanda</li>
+                        <li><span class="check">✔</span> 02 quartos</li>
+                        <li><span class="check">✔</span> Banheiro privativo</li>
                     </ul>
                 </div>
             </div>
@@ -341,10 +340,10 @@
                     </p>
 
                     <ul>
-                        <li><i class="fas fa-check"></i>Ar-condicionado</li>
-                        <li><i class="fas fa-check"></i>Televisão</li>
-                        <li><i class="fas fa-check"></i>Frigobar</li>
-                        <li><i class="fas fa-check"></i>Banheiro privativo</li>
+                        <li><span class="check">✔</span> Ar-condicionado</li>
+                        <li><span class="check">✔</span> Televisão</li>
+                        <li><span class="check">✔</span> Frigobar</li>
+                        <li><span class="check">✔</span> Banheiro privativo</li>
                     </ul>
                 </div>
             </div>

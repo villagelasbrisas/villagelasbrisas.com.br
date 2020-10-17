@@ -33,7 +33,7 @@
                 <div id="map-header">
                     <a href="https://goo.gl/maps/hRRAmpsSShMK7qVC8">
                         Nossa localização
-                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="map-marker-alt">🌍</span>
                     </a>
                 </div>
 
@@ -47,8 +47,7 @@
                 <p>
                     Desenvolvido por:
                     <a target="_blank" href="https://www.github.com/gcairesdev">
-                        <u>Guilherme Caires</u>
-                        <i class="fas fa-code"></i>
+                        <u>Guilherme Caires</u> 👋🤓🍵
                     </a>
                 </p>
             </div>
