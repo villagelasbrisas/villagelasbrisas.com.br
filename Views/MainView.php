@@ -10,9 +10,10 @@
         private $description;
         private $withoutFooter;
 
-        public $publicStyles = ['global', 'menu', 'footer'];
+        public $publicStyles = ['global', 'menu', 'rules', 'footer'];
 
         public $publicScripts = [
+            'rules',
             'toggle-menu',
             'getButtonIO',
             'loadGoogleMaps',
