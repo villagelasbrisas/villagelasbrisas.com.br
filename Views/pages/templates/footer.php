@@ -3,25 +3,25 @@
     if(!$this->withoutFooter) { echo '
         <footer>
             <section id="evaluations" class="container-sm">
-                <div class="title-separator">
+                <div class="title-separator" data-aos="flip-up" data-aos-delay="300" data-aos-duration="300">
                     <h2>Depoimentos</h2>
                 </div>
 
-                <div class="evaluation">
+                <div class="evaluation" data-aos="fade-right" data-aos-duration="900" data-aos-delay="300">
                     <a href="https://goo.gl/maps/RhnFDyVtwqafpZrW9" target="_blank">
                         Muito bom, literalmente na praia de Barra Grande uma das mais belas da ilha. Fui bem atendido por todos os funcionários.
                     </a>
                     <h6>Jõao Carlos</h6>
                 </div>
 
-                <div class="evaluation">
+                <div class="evaluation" data-aos="fade-left" data-aos-duration="900" data-aos-delay="300">
                     <a href="https://goo.gl/maps/DTw56VWFo4kzTRpG6" target="_blank">
                         Village Las brisas é top na categoria. Ótimo atendimento, dependências que agradam a todos os gostos, lindas vista para o mar, super recomendo.
                     </a>
                     <h6>Geovane Rosa</h6>
                 </div>
 
-                <div class="evaluation">
+            <div class="evaluation" data-aos="fade-right" data-aos-duration="900" data-aos-delay="300">
                     <a href="https://goo.gl/maps/x6C1NA7M4c6sWCS16" target="_blank">
                         Lugar tranquilo, ótimas acomodações, muito verde, piscina ótima e exatamente na frente do mar.
                     </a>
@@ -31,7 +31,7 @@
 
             <div id="map">
                 <div id="map-header">
-                    <a href="https://goo.gl/maps/hRRAmpsSShMK7qVC8">
+                    <a href="https://goo.gl/maps/hRRAmpsSShMK7qVC8" data-aos="flip-down" data-aos-duration="500" data-aos-delay="700">
                         Nossa localização
                         <img src="'. INCLUDE_PATH_FULL .'img/icons/location.svg" alt="Localização" >
                     </a>
@@ -66,5 +66,8 @@
         }
     }
 ?>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
