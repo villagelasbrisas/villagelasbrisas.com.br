@@ -81,3 +81,9 @@ function showHidePhotos(photoCollection) {
 function hasModal() {
     return document.getElementById('modal');
 }
+
+document.body.onkeydown = function(event) {
+    if(event.which == 27 && document.getElementById('modal')) {
+        onClickModal();
+    }
+}
