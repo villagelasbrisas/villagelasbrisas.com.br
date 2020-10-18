@@ -61,22 +61,39 @@
         </div>
 
         <div id="gallery-content">
-            <a href="<?= INCLUDE_PATH ?>galerias/lazer">
+            <a href="<?= INCLUDE_PATH ?>galeria/lazer">
                 <img src="<?= INCLUDE_PATH_FULL ?>img/box-lazer.jpg" alt="Galeria lazer">
                 <h3>Lazer</h3>
             </a>
 
-            <a href="<?= INCLUDE_PATH ?>galerias/restaurante">
+            <a href="<?= INCLUDE_PATH ?>galeria/restaurante">
                 <img src="<?= INCLUDE_PATH_FULL ?>img/box-restaurante.jpg" alt="Galeria restaurante">
                 <h3>Restaurante</h3>
             </a>
 
-            <a href="<?= INCLUDE_PATH ?>galerias/reveillon">
-                <img src="<?= INCLUDE_PATH_FULL ?>img/box-reveillon.jpg" alt="Galeria restaurante">
+            <a href="<?= INCLUDE_PATH ?>galeria/reveillon">
+                <img src="<?= INCLUDE_PATH_FULL ?>img/box-reveillon.jpg" alt="Galeria revéillon">
                 <h3>Reveillon</h3>
+            </a>
+
+            <a href="<?= INCLUDE_PATH ?>galeria/paraquedismo" class="dn">
+                <img src="<?= INCLUDE_PATH_FULL ?>img/box-paraquedismo.jpg" alt="Galeria paraquedismo">
+                <h3>Paraquedismo</h3>
             </a>
         </div>
 
-        <a href="<?= INCLUDE_PATH ?>galerias/" class="more">Ver mais...</a>
+        <a class="more">Ver mais...</a>
     </section>
 </main>
+
+<script type="text/javascript">
+    const galleryMoreButton = document.querySelector('.more');
+    const galleryContent =  document.querySelector('#gallery-content');
+    const galleryThumbs = galleryContent.querySelectorAll('a');
+
+    galleryMoreButton.onclick = function(){
+        for (let i = 3; i < galleryThumbs.length; i++) {
+            galleryThumbs[i].classList.toggle('dn');
+        }
+    };
+</script>

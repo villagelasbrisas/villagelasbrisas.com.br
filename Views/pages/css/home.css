@@ -111,15 +111,24 @@
 #gallery-content {
     width: 100%;
     display: flex;
-    margin-top: 40px;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
 }
 
 #gallery-content a {
     width: 30%;
     display: flex;
+    max-width: 207px;
+    margin: 20px 10px;
     align-items: center;
     flex-direction: column;
+}
+
+@media(max-width: 690px) {
+    #gallery-content a {
+        margin: 20px 5px;
+    }
 }
 
 #gallery-content a img {
