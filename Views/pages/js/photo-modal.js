@@ -1,7 +1,7 @@
 function openPhoto(eventTarget) {
     if(hasModal()) return;
 
-    const photoCollection = eventTarget.parentElement;
+    const photoCollection = eventTarget.parentElement.cloneNode(true);
 
     createModal(photoCollection);
     showHidePhotos(photoCollection);
@@ -12,59 +12,20 @@ function createModal(photoCollection) {
     const htmlHeader = document.querySelector('header');
 
     modal.setAttribute('id', 'modal');
-    modal.setAttribute('onclick', 'onClickModal()');
+    modal.setAttribute('onclick', 'deleteModal()');
     modal.appendChild(photoCollection);
 
     setTimeout(() => {
-        document.body.setAttribute('onscroll', 'onClickModal()');
+        document.body.setAttribute('onscroll', 'deleteModal()');
     }, 500);
 
     document.body.insertBefore(modal, htmlHeader);
 }
 
-function onClickModal() {
-    const photoCollection = document.querySelector('#modal a');
-
-    movePhotoCollectionToOrigin(photoCollection);
-
-    deleteModal();
-
-    document.body.removeAttribute('onscroll');
-}
-
 function deleteModal() {
     modal.remove();
-}
 
-function movePhotoCollectionToOrigin(photoCollection) {
-    const allocationsContent = document.querySelectorAll('.allocation-content');
-    let allocationChild;
-    let allocationChildTag;
-
-    for (let i = 0; i < allocationsContent.length; i++) {
-        allocationChildTag = allocationsContent[i].children[0].localName;
-
-        if(allocationChildTag !== 'a') {
-            allocationChild = allocationsContent[i];
-
-            break;
-        }
-    }
-
-    hidePhotos(photoCollection);
-
-    allocationChild.insertBefore(photoCollection, allocationChild.children[0]);
-}
-
-function hidePhotos(photoCollection) {
-    const photos = photoCollection.children;
-    let hiddenPhotos = [];
-
-    for (let i = 1; i < photos.length; i++) {
-        hiddenPhotos = photos[i].classList.add('dn');
-    }
-
-    return hiddenPhotos;
+    document.body.removeAttribute('onscroll');
 }
 
 function showHidePhotos(photoCollection) {
@@ -80,10 +41,4 @@ function showHidePhotos(photoCollection) {
 
 function hasModal() {
     return document.getElementById('modal');
-}
-
-document.body.onkeydown = function(event) {
-    if(event.which == 27 && document.getElementById('modal')) {
-        onClickModal();
-    }
 }
