@@ -1,14 +1,62 @@
-#reservations {
-    margin: 40px 0;
+#prices-content {
+    color: #333;
+    margin: 0 auto;
+    font-size: 20px;
+    width: fit-content;
+    text-align: center;
+}
+
+#prices-content h3 {
+    font-size: 30px;
+    margin: 25px auto;
+}
+
+#prices-content p {
+    margin: 15px 0;
+}
+
+#prices-content ul li {
+    line-height: 1.5;
+}
+
+@media(max-width: 380.9px) {
+    #prices-content {
+        font-size: 15px;
+    }
+
+    #prices-content h3 {
+        font-size: 23px;
+    }
+}
+
+
+/* =================== RESERVATIONS =================== */
+
+
+#prices, #reservations {
+    margin: 40px auto;
 }
 
 #reservations .title-separator {
     margin: 20px 0;
 }
 
+#reservations .alert {
+    margin: 10px 0;
+}
+
+#reservations .alert a {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+
+#reservations .alert a:hover {
+    color: #000000;
+}
 
 @media(max-width: 726.9px) {
-    #reservations {
+    #reservations, #prices {
         padding: 0 10px;
     }
 }

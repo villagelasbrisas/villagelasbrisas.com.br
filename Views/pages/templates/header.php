@@ -49,11 +49,11 @@
             </li>
 
             <li>
-                <a href="<?= INCLUDE_PATH ?>valores">Valores</a>
+                <a href="<?= INCLUDE_PATH ?>reserva">Valores</a>
             </li>
 
             <li>
-                <a href="<?= INCLUDE_PATH ?>reservas">Reservas</a>
+                <a href="<?= INCLUDE_PATH ?>reserva#reservations">Reserva</a>
             </li>
         </ul>
     </nav>

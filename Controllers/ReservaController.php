@@ -1,9 +1,9 @@
 <?php
 
-    class ReservasController extends Controller
+    class ReservaController extends Controller
     {
 
-        private $title = 'Reservas - Village Las Brisas';
+        private $title = 'Reserva - Village Las Brisas';
 
         private $styles = ['reservations'];
 
@@ -17,15 +17,15 @@
 			if(isset($_POST['mail-sended'])){
                 ReservasModel::submitForm();
 
-                echo '<script>location.href="'.INCLUDE_PATH.'reservas/enviado"</script>';
+                echo '<script>location.href="'.INCLUDE_PATH.'reserva/enviado"</script>';
 			}
 
-			\Router::rota('reservas/enviado',function(){
+			\Router::rota('reserva/enviado',function(){
 				$this->view = new MainView('mail-sended', $this->title, $this->styles, $this->scripts, $this->description, $this->withoutFooter);
 				$this->view->render();
 			});
 
-			\Router::rota('reservas',function(){
+			\Router::rota('reserva',function(){
 				$this->view = new MainView('reservations', $this->title, $this->styles, $this->scripts, $this->description, $this->withoutFooter);
 				$this->view->render();
 			});
