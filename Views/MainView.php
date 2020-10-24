@@ -8,6 +8,7 @@
         private $css;
         private $scripts;
         private $description;
+        private $keywords;
         private $withoutFooter;
 
         public $publicStyles = ['global', 'menu', 'rules', 'footer'];
@@ -19,12 +20,13 @@
             'loadGoogleMaps',
         ];
 
-		public function __construct($pageFile, $title, $css = [], $scripts = [], $description, $withoutFooter = false){
+		public function __construct($pageFile, $title, $css = [], $scripts = [], $description, $keywords = [], $withoutFooter = false){
 			$this->pageFile = $pageFile;
 			$this->title = $title;
 			$this->css = $css;
 			$this->scripts = $scripts;
 			$this->description = $description;
+			$this->keywords = $keywords;
 			$this->withoutFooter = $withoutFooter;
 		}
 

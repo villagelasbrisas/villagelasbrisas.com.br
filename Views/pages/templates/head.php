@@ -10,9 +10,25 @@
     <meta name="target_country" content="br">
     <meta name="author" content="Guilherme Caires - www.github.com/gcairesdev">
     <meta name="reply-to" content="reservas@villagelasbrisas.com.br">
-    <meta name="keywords" content="village,las brisas,pousada,ilha,Itaparica,Barra Grande,Vera Cruz,Bahia,reservas,hospedagem,barata,hotel">
-    <meta name="description" content="<?= $this->description ?>">
-    <meta name="robots" content="index,follow">
+    <?php
+        if ($this->keywords) {
+            echo '<meta name="keywords" content="';
+                foreach($this->keywords as $keyword) {
+                    $i++;
+                    echo $keyword;
+                    if ($i < count($this->keywords)) echo ', ';
+                }
+            echo "\">\n    ";
+        }
+
+        if ($this->description) {
+            echo "<meta name=\"description\" content=\"$this->description\">\n    ";
+            echo "<meta name=\"robots\" content=\"index, follow\">\n";
+        } else {
+            echo "<meta name=\"robots\" content=\"noindex, follow\">\n";
+        }
+
+    ?>
     <!-- Favicons -->
     <link rel="icon" href="<?= INCLUDE_PATH_FULL ?>img/icons/favicon-16.png" sizes="16x16">
     <link rel="icon" href="<?= INCLUDE_PATH_FULL ?>img/icons/favicon-32.png" sizes="32x32">
