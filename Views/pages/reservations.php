@@ -1,12 +1,12 @@
 <?php include('templates/header.php') ?>
 
-<section id="prices" class="container-sm">
+<section id="prices" class="container-sm aos">
     <div class="title-separator" data-aos="fade-right" data-aos-duration="600">
         <h2>Valores</h2>
     </div>
 
-    <div id="prices-content">
-        <div id="reveillon" data-aos="fade-up-left" data-aos-duration="600">
+    <div id="prices-content" class="aos">
+        <div id="reveillon" data-aos="fade-left" data-aos-duration="600">
             <h3>Pacote de Revéillon 2021</h3>
 
             <p>30/12/2020 à 04/01/2021</p>
@@ -22,23 +22,25 @@
             </ul>
         </div>
 
-        <div id="summer" data-aos="fade-up-right" data-aos-duration="600">
-            <h3>Diárias de verão 2021</h3>
+        <div class="aos">
+            <div id="summer" data-aos="fade-right" data-aos-duration="600">
+                <h3>Diárias de verão 2021</h3>
 
-            <p>Apartir do dia 04/01/2021</p>
+                <p>Apartir do dia 04/01/2021</p>
 
-            <ul class="mt-50 mb-20">
-                <li class="mb-20">Apartamento <b>06</b> pessoas <b>R$ 420,00</b></li>
-                <li class="mb-20">Apartamento <b>05</b> pessoas <b>R$ 350,00</b></li>
-                <li class="mb-20">Apartamento <b>04</b> pessoas <b>R$ 300,00</b></li>
-                <li class="mb-20">Apartamento <b>03</b> pessoas <b>R$ 220,00</b></li>
-                <li class="mb-20">Apartamento <b>02</b> pessoas <b>R$ 160,00</b></li>
-            </ul>
+                <ul class="mt-50 mb-20">
+                    <li class="mb-20">Apartamento <b>06</b> pessoas <b>R$ 420,00</b></li>
+                    <li class="mb-20">Apartamento <b>05</b> pessoas <b>R$ 350,00</b></li>
+                    <li class="mb-20">Apartamento <b>04</b> pessoas <b>R$ 300,00</b></li>
+                    <li class="mb-20">Apartamento <b>03</b> pessoas <b>R$ 220,00</b></li>
+                    <li class="mb-20">Apartamento <b>02</b> pessoas <b>R$ 160,00</b></li>
+                </ul>
+            </div>
         </div>
     </div>
 </section>
 
-<main class="container-sm">
+<main class="container-sm aos">
     <section id="reservations">
         <div class="title-separator" data-aos="fade-left" data-aos-duration="600">
             <h2>Reserva</h2>

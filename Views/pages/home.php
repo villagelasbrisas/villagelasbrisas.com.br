@@ -1,6 +1,6 @@
 <?php include('templates/header.php') ?>
 
-<main class="container">
+<main class="container aos">
     <div class="slider autoplay items-3" data-aos="fade-up" data-aos-duration="700">
         <div id="item-1" class="control-operator"></div>
         <div id="item-2" class="control-operator"></div>

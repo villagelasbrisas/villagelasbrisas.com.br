@@ -1,62 +1,64 @@
-<header class="inative" data-aos="zoom-out" data-aos-duration="600">
-    <nav id="white-nav">
-        <div id="mobile-menu">
-            <a id="logo" href="<?= INCLUDE_PATH ?>" data-aos="fade-right" data-aos-delay="300" data-aos-duration="300">
-                <img src="<?= INCLUDE_PATH_FULL ?>img/logo.png" alt="Logo">
-            </a>
-
-            <div id="toggle-menu">☰</div>
-        </div>
-
-        <ul data-aos="fade-left" data-aos-delay="600">
-            <li>
-                <a href="https://goo.gl/maps/hRRAmpsSShMK7qVC8" target="_blank">
-                    <img src="<?= INCLUDE_PATH_FULL ?>img/icons/location.svg" alt="Localização" >
-                    Localização
+<header class="inative aos">
+    <div data-aos="zoom-out" data-aos-duration="600">
+        <nav id="white-nav">
+            <div id="mobile-menu">
+                <a id="logo" href="<?= INCLUDE_PATH ?>" data-aos="fade-right" data-aos-delay="300" data-aos-duration="300">
+                    <img src="<?= INCLUDE_PATH_FULL ?>img/logo.png" alt="Logo">
                 </a>
-            </li>
-            <li>
-                <a href="tel:+5507141240051">
-                    <img src="<?= INCLUDE_PATH_FULL ?>img/icons/phone.svg" alt="Telefone" >
-                    (71) 4124-0051
-                </a>
-            </li>
-            <li>
-                <a href="tel:+55071988519487">
-                    <img src="<?= INCLUDE_PATH_FULL ?>img/icons/mobile-phone.svg" alt="Celular" >
-                    (71) 9 8851-9487
-                </a>
-            </li>
-        </ul>
-    </nav>
 
-    <nav id="green-nav">
-        <ul data-aos="flip-up" data-aos-delay="600" data-aos-duration="700">
-            <li>
-                <a href="<?= INCLUDE_PATH ?>">Village</a>
-            </li>
+                <div id="toggle-menu">☰</div>
+            </div>
 
-            <li>
-                <a href="<?= INCLUDE_PATH ?>acomodacoes">Acomodacoes</a>
-            </li>
+            <ul data-aos="fade-left" data-aos-delay="600">
+                <li>
+                    <a href="https://goo.gl/maps/hRRAmpsSShMK7qVC8" target="_blank">
+                        <img src="<?= INCLUDE_PATH_FULL ?>img/icons/location.svg" alt="Localização" >
+                        Localização
+                    </a>
+                </li>
+                <li>
+                    <a href="tel:+5507141240051">
+                        <img src="<?= INCLUDE_PATH_FULL ?>img/icons/phone.svg" alt="Telefone" >
+                        (71) 4124-0051
+                    </a>
+                </li>
+                <li>
+                    <a href="tel:+55071988519487">
+                        <img src="<?= INCLUDE_PATH_FULL ?>img/icons/mobile-phone.svg" alt="Celular" >
+                        (71) 9 8851-9487
+                    </a>
+                </li>
+            </ul>
+        </nav>
 
-            <li>
-                <a href="#rules" id="rules-menu">Regras</a>
-            </li>
+        <nav id="green-nav">
+            <ul data-aos="flip-up" data-aos-delay="600" data-aos-duration="700">
+                <li>
+                    <a href="<?= INCLUDE_PATH ?>">Village</a>
+                </li>
 
-            <li>
-                <a href="<?= INCLUDE_PATH ?>#gallery">Galerias</a>
-            </li>
+                <li>
+                    <a href="<?= INCLUDE_PATH ?>acomodacoes">Acomodacoes</a>
+                </li>
 
-            <li>
-                <a href="<?= INCLUDE_PATH ?>reserva">Valores</a>
-            </li>
+                <li>
+                    <a href="#rules" id="rules-menu">Regras</a>
+                </li>
 
-            <li>
-                <a href="<?= INCLUDE_PATH ?>reserva#reservations">Reserva</a>
-            </li>
-        </ul>
-    </nav>
+                <li>
+                    <a href="<?= INCLUDE_PATH ?>#gallery">Galerias</a>
+                </li>
+
+                <li>
+                    <a href="<?= INCLUDE_PATH ?>reserva">Valores</a>
+                </li>
+
+                <li>
+                    <a href="<?= INCLUDE_PATH ?>reserva#reservations">Reserva</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </header>
 <section id="rules" class="dn">
     <div id="rules-content" class="container-sm">

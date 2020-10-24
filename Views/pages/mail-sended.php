@@ -1,16 +1,56 @@
 <?php include('templates/header.php') ?>
 
-<main class="container-sm">
+<section id="prices" class="container-sm aos">
+    <div class="title-separator" data-aos="fade-right" data-aos-duration="600">
+        <h2>Valores</h2>
+    </div>
+
+    <div id="prices-content" class="aos">
+        <div id="reveillon" data-aos="fade-left" data-aos-duration="600">
+            <h3>Pacote de Revéillon 2021</h3>
+
+            <p>30/12/2020 à 04/01/2021</p>
+
+            <ul class="mt-50 mb-20">
+                <li class="mb-20">Apartamento <b>06</b> pessoas <b>R$ 2.700,00</b></li>
+                <li class="mb-20">Apartamento <b>05</b> pessoas <b>R$ 2.400,00</b></li>
+                <li class="mb-20">Apartamento <b>04</b> pessoas <b>R$ 2.000,00</b></li>
+                <li class="mb-20">Apartamento <b>03</b> pessoas <b>R$ 1.500,00</b></li>
+                <li class="mb-20">Apartamento <b>02</b> pessoas <b>R$ 1.200,00</b></li>
+                <li class="mb-20">Suíte <b>02</b> pessoas, c/ café <b>R$ 1.200,00</b></li>
+                <li class="mb-20">Suíte <b>03</b> pessoas, c/ café <b>R$ 1.400,00</b></li>
+            </ul>
+        </div>
+
+        <div class="aos">
+            <div id="summer" data-aos="fade-right" data-aos-duration="600">
+                <h3>Diárias de verão 2021</h3>
+
+                <p>Apartir do dia 04/01/2021</p>
+
+                <ul class="mt-50 mb-20">
+                    <li class="mb-20">Apartamento <b>06</b> pessoas <b>R$ 420,00</b></li>
+                    <li class="mb-20">Apartamento <b>05</b> pessoas <b>R$ 350,00</b></li>
+                    <li class="mb-20">Apartamento <b>04</b> pessoas <b>R$ 300,00</b></li>
+                    <li class="mb-20">Apartamento <b>03</b> pessoas <b>R$ 220,00</b></li>
+                    <li class="mb-20">Apartamento <b>02</b> pessoas <b>R$ 160,00</b></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<main class="container-sm aos">
     <section id="reservations">
-        <div class="title-separator" data-aos="fade-right" data-aos-duration="600">
-            <h2>Reservas</h2>
+        <div class="title-separator" data-aos="fade-left" data-aos-duration="600">
+            <h2>Reserva</h2>
         </div>
 
         <div class="alert" data-aos="flip-up" data-aos-duration="900">
             <span>⚠</span> E-mail enviado!
         </div>
 
-        <form method="POST" action="<?= INCLUDE_PATH ?>reservas">
+        <form method="POST" action="<?= INCLUDE_PATH ?>reserva">
             <div class="input-block" data-aos-duration="200" data-aos="fade-right">
                 <label for="name">
                     <img src="<?= INCLUDE_PATH_FULL ?>img/icons/person.svg" alt="Ícone usuário" >

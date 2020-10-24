@@ -92,8 +92,8 @@
 
 @media(max-width: 726.9px) {
 
-    header.inative > #white-nav ul,
-    header.inative > #green-nav
+    header.inative #white-nav ul,
+    header.inative #green-nav
     {
         display: none;
     }
