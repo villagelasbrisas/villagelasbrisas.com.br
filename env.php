@@ -1,12 +1,16 @@
 <?php
 
-    if ($_SERVER["SERVER_NAME"] == "localhost") {
-        $env_url = "http://localhost/villagelasbrisas.com.br/";
-    } else {
-        $env_url = "https://www.villagelasbrisas.com.br/";
-    }
+    $isLocalEnvironment = $_SERVER['SERVER_NAME'] == 'localhost';
+    $isDevEnvironment = $_SERVER['SERVER_NAME'] == 'www.dev.villagelasbrisas.com.br';
+    $isProdEnvironment = $_SERVER['SERVER_NAME'] == 'www.villagelasbrisas.com.br';
 
-    define('INCLUDE_PATH',$env_url);
-    define('INCLUDE_PATH_FULL',$env_url . "Views/pages/");
+    if ($isLocalEnvironment) $env_url = 'http://localhost/villagelasbrisas.com.br/';
+
+    if ($isDevEnvironment) $env_url = 'https://www.dev.villagelasbrisas.com.br/';
+
+    if ($isProdEnvironment) $env_url = 'https://www.villagelasbrisas.com.br/';
+
+    define('INCLUDE_PATH', $env_url);
+    define('INCLUDE_PATH_FULL', $env_url . 'Views/pages/');
 
 ?>
