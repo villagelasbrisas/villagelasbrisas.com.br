@@ -55,7 +55,7 @@
         </div>
     </section>
 
-    <section id="gallery" class="container-sm" data-aos="flip-up" data-aos-duration="600" data-aos-delay="300">
+    <section id="gallery" class="container-sm" data-aos="fade-down" data-aos-duration="600" data-aos-delay="300">
         <div class="title-separator">
             <h2>Galerias</h2>
         </div>

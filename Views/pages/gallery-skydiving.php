@@ -5,7 +5,7 @@
         <div class="title-separator">
             <h2>Paraquedismo</h2>
 
-            <a href="<?= INCLUDE_PATH ?>">
+            <a href="<?= INCLUDE_PATH ?>#gallery">
                 <span>⬅</span>
                 <h3>Voltar</h3>
             </a>
