@@ -11,7 +11,7 @@
             </a>
         </div>
 
-        <a href="#modal" class="modal-items" onclick="openPhoto(event.target)">
+        <a href="#modal" class="modal-items" onclick="openPhoto(event.target)" data-aos="fade-up" data-aos-duration="900">
             <img src="<?= INCLUDE_PATH_FULL ?>img/paraquedismo-00.jpg" alt="Foto paraquedismo" id="paraquedismo-00">
             <img src="<?= INCLUDE_PATH_FULL ?>img/paraquedismo-01.jpg" alt="Foto paraquedismo" id="paraquedismo-01">
             <img src="<?= INCLUDE_PATH_FULL ?>img/paraquedismo-02.jpg" alt="Foto paraquedismo" id="paraquedismo-02">

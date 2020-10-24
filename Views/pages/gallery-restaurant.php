@@ -11,7 +11,7 @@
             </a>
         </div>
 
-        <a href="#modal" class="modal-items" onclick="openPhoto(event.target)">
+        <a href="#modal" class="modal-items" onclick="openPhoto(event.target)" data-aos="fade-up" data-aos-duration="900">
             <img src="<?= INCLUDE_PATH_FULL ?>img/restaurante-00.jpg" alt="Foto restaurante" id="restaurante-00">
             <img src="<?= INCLUDE_PATH_FULL ?>img/restaurante-01.jpg" alt="Foto restaurante" id="restaurante-01">
             <img src="<?= INCLUDE_PATH_FULL ?>img/restaurante-02.jpg" alt="Foto restaurante" id="restaurante-02">
