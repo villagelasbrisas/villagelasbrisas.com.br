@@ -38,13 +38,11 @@
             </section>
 
             <div id="map">
-                <div class="aos">
-                    <div id="map-header" class="aos">
-                        <a href="https://goo.gl/maps/hRRAmpsSShMK7qVC8" data-aos="flip-down" data-aos-duration="500" data-aos-delay="700">
-                            Nossa localização
-                            <img src="'. INCLUDE_PATH_FULL .'img/icons/location.svg" alt="Localização" >
-                        </a>
-                    </div>
+                <div id="map-header">
+                    <a href="https://goo.gl/maps/hRRAmpsSShMK7qVC8" data-aos="flip-down" data-aos-duration="500" data-aos-delay="700">
+                        Nossa localização
+                        <img src="'. INCLUDE_PATH_FULL .'img/icons/location.svg" alt="Localização" >
+                    </a>
                 </div>
 
                 <iframe id="google-maps"></iframe>
