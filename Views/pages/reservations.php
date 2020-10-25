@@ -47,7 +47,7 @@
         </div>
 
         <div class="alert" style="background: #ffb358; color: #333;" data-aos="flip-up" data-aos-duration="900">
-            <span>⚠</span> Priorize os canais telefônicos / WhatsApp:
+            <span>⚠</span> Priorize ligação / whatsapp:
 
             <a href="tel:+5507141240051">
                 (71) 4124-0051

@@ -6,7 +6,7 @@
             <h2>Paraquedismo</h2>
 
             <a href="<?= INCLUDE_PATH ?>#gallery">
-                <span>⬅</span>
+                <img src="<?= INCLUDE_PATH_FULL ?>img/icons/undo.svg" alt="Ícone voltar">
                 <h3>Voltar</h3>
             </a>
         </div>

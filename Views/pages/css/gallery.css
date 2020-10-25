@@ -15,13 +15,12 @@
     color: var(--green);
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     text-transform: uppercase;
 }
 
-#gallery .title-separator a span {
-    font-size: 40px;
-    line-height: 40%;
-    margin-right: 10px;
+#gallery .title-separator a img {
+    margin-right: 5px;
 }
 
 #gallery .modal-items {
@@ -42,6 +41,7 @@
     height: 185px;
     cursor: pointer;
     margin-top: 15px;
+    border-radius: 5px;
 }
 
 @media(max-width: 690.9px) {

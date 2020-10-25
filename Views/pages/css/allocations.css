@@ -6,10 +6,14 @@
     #allocations {
         padding: 0 15px;
     }
+
+    .allocation {
+        margin-bottom: 30px;
+    }
 }
 
 #allocations .alert {
-    margin: 20px 0;
+    margin: 15px 0 40px 0;
 }
 
 
@@ -17,7 +21,7 @@
 
 
 .allocation {
-    margin: 80px 0;
+    margin-bottom: 60px;
 }
 
 .allocation h3 {

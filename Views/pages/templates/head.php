@@ -3,6 +3,7 @@
 <head>
     <!-- Meta config -->
     <meta charset="UTF-8">
+    <meta name="theme-color" content="#10AC84" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Google SEO -->
