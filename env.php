@@ -1,8 +1,12 @@
 <?php
 
     $isLocalEnvironment = $_SERVER['SERVER_NAME'] == 'localhost';
-    $isDevEnvironment = $_SERVER['SERVER_NAME'] == 'www.dev.villagelasbrisas.com.br';
-    $isProdEnvironment = $_SERVER['SERVER_NAME'] == 'www.villagelasbrisas.com.br';
+
+    $isDevEnvironment = $_SERVER['SERVER_NAME'] == 'www.dev.villagelasbrisas.com.br'
+        || $_SERVER['SERVER_NAME'] == 'dev.villagelasbrisas.com.br';
+
+    $isProdEnvironment = $_SERVER['SERVER_NAME'] == 'www.villagelasbrisas.com.br'
+        || $_SERVER['SERVER_NAME'] == 'villagelasbrisas.com.br';
 
     if ($isLocalEnvironment) $env_url = 'http://localhost/villagelasbrisas.com.br/';
 
