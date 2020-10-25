@@ -1,40 +1,50 @@
-# Village Las Brisas website
-Hotel website with MVC structure.
+# Village Las Brisas
+> Site para divulgação da pousada, e facilitar a demonstração de fotos, valores e regras do estabelecimento.
 
-## How to collaborate
+[![Code Size][code-size]][code-url]
+[![License][MIT-license]][MIT-url]
 
-### Commit
+Site para divulgação da pousada, e facilitar a demonstração de fotos, valores e regras do estabelecimento.
 
-- Use imperative mode ("Adds feature" , "Adding feature" ou "Added feature")
-- First line must contain a maximum of 72 characters
-- Consider describing in detail in the commit body
+<p align="center">
+    <img src=".github/img/header.png"></img>
+</p>
 
+## 🎯 Objetivo
 
-## Example
+Site para divulgação da pousada, e facilitar a demonstração de fotos, valores e regras do estabelecimento.
 
+## 👷 Instalação
+
+Clone o repositório:
+
+```git
+git clone https://github.com/villagelasbrisas/villagelasbrisas.com.br
 ```
-feat: add hat wobble
-^--^  ^------------^
-|     |
-|     +-> Summary in present tense.
-|
-+-------> Type: chore, docs, feat, fix, refactor, style, or test.
-```
 
-More Examples:
+## 👨🏼‍💻 Autor
 
-- `feat`: (new feature for the user, not a new feature for build script)
-- `fix`: (bug fix for the user, not a fix to a build script)
-- `docs`: (changes to the documentation)
-- `style`: (formatting, missing semi colons, etc; no production code change)
-- `refactor`: (refactoring production code, eg. renaming a variable)
-- `test`: (adding missing tests, refactoring tests; no production code change)
-- `chore`: (updating grunt tasks etc; no production code change)
+Foto | Nome | GitHub | Likedin | E-mail
+---- | ---- | ------ | ------- | ------
+<img src="https://avatars1.githubusercontent.com/u/54117888?s=460&u=aa7d6143c4e1fdab1ffa6e5fd5ebfe64572f2eae&v=4" width="100px"> | Guilherme Caires | [gcairesdev](https://github.com/gcairesdev) | [Linkedin](https://linkedin.com/in/guilherme-caires/) | contatogcaires@gmail.com
 
+## 🤝 Contribuindo
 
-```bash
-git commit -m "docs: Add contribution instructions
->
-> The CONTRIBUTING.md file was created with instructions for
-> how to make a good commit"
-``` 
+Confira a página [CONTRIBUTING](.github/CONTRIBUTING.md) para ver os melhores locais para arquivar problemas, iniciar discussões e começar a contribuir.
+
+## 📃 Licença
+
+Lançado em 2020.
+Este projeto está sob a [Licença MIT](./LICENSE.md).
+
+---
+
+<p align="center">
+    Feito com :heart: por <a href="https://github.com/gcairesdev">Guilherme Caires</a>
+</p>
+
+[code-size]: https://img.shields.io/github/languages/code-size/gcairesdev/project-template
+[code-url]: https://github.com/gcairesdev/project-template
+
+[MIT-license]: https://img.shields.io/github/license/gcairesdev/project-template
+[MIT-url]: https://github.com/gcairesdev/project-template/blob/master/LICENSE.md
