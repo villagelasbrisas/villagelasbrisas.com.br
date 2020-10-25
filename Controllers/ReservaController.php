@@ -86,12 +86,7 @@
         }
 
         private function createBody($name, $adults, $kids, $checkin, $checkout, $message) {
-            $body  = "<strong>Nome: </strong> $name <br>";
-            $body .= "<strong>Adultos: </strong> $adults <br>";
-            $body .= "<strong>Crianças (5 anos): </strong> $kids <br>";
-            $body .= "<strong>Entrada: </strong> $checkin <br>";
-            $body .= "<strong>Saída: </strong> $checkout <br>";
-            $body .= "<strong>Mensagem: </strong>".$message;
+            $body = include $_SERVER['DOCUMENT_ROOT'] . '/Views/pages/email-reservation.php';
 
             return $body;
         }
