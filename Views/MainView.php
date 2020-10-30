@@ -14,9 +14,6 @@
         public $publicStyles = ['global', 'menu', 'rules', 'footer'];
 
         public $publicScripts = [
-            'rules',
-            'toggle-menu',
-            'getButtonIO',
             'loadGoogleMaps',
         ];
 

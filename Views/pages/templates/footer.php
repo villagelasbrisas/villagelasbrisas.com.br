@@ -74,7 +74,7 @@
         }
     }
 ?>
-    <script>
+    <script id="aos-script" type="text/javascript">
         AOS.init();
         window.onload = function(){
             var x = document.querySelectorAll('.aos');
@@ -83,6 +83,55 @@
                 x[i].style.overflowX = 'hidden';
             }
         }
+    </script>
+    <script id="toogle-menu-script" type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function(){
+            const toggleMenuDiv = document.getElementById('toggle-menu');
+            const header = document.querySelector('header');
+
+            toggleMenuDiv.addEventListener('click', toggleMenu);
+
+            function toggleMenu() { header.classList.toggle('inative');}
+        });
+    </script>
+    <script id="rules-script" type="text/javascript">
+        const rulesMenu = document.getElementById('rules-menu');
+        rulesMenu.setAttribute('onclick', 'toggleRulesDisplay()');
+
+        const rules = document.getElementById('rules');
+        rules.setAttribute('onclick', 'toggleRulesDisplay()');
+
+        function toggleRulesDisplay() {
+            document.querySelector('header').classList.toggle('dn');
+            document.querySelector('main').classList.toggle('dn');
+            document.querySelector('footer').classList.toggle('dn');
+            rules.classList.toggle('dn');
+        }
+
+        document.body.onkeyup = function(e) {(e.which == 27 && !rules.classList.contains('dn')) && toggleRulesDisplay();}
+    </script>
+    <script id="whatsapp-script" type="text/javascript">
+        (function () {
+            var protocol = document.location.protocol;
+            var host = "getbutton.io";
+            var url = protocol + "//static." + host;
+
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.async = true;
+            script.src = url + '/widget-send-button/js/init.js';
+
+            script.onload = function () {
+                WhWidgetSendButton.init(host, protocol, {
+                    whatsapp: "+55 (071) 98851-9487",
+                    call_to_action: "Faça sua reserva por aqui!",
+                    position: "right",
+                });
+            };
+
+            var destination = document.getElementsByTagName('script')[0];
+            destination.parentNode.insertBefore(script, destination);
+        })();
     </script>
 </body>
 </html>
