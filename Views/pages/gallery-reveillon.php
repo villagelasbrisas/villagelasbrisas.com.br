@@ -34,9 +34,8 @@
             <img src="<?= INCLUDE_PATH_FULL ?>img/reveillon-19.jpg" alt="Foto reveillon" id="reveillon-19">
             <img src="<?= INCLUDE_PATH_FULL ?>img/reveillon-20.jpg" alt="Foto reveillon" id="reveillon-20">
             <img src="<?= INCLUDE_PATH_FULL ?>img/reveillon-21.jpg" alt="Foto reveillon" id="reveillon-21">
-            <img src="<?= INCLUDE_PATH_FULL ?>img/reveillon-22.jpg" alt="Foto reveillon" id="reveillon-22">
+            <img src="<?= INCLUDE_PATH_FULL ?>img/reveillon-22.jpg" alt="Foto reveillon" id="reveillon-24">
             <img src="<?= INCLUDE_PATH_FULL ?>img/reveillon-23.jpg" alt="Foto reveillon" id="reveillon-23">
-            <img src="<?= INCLUDE_PATH_FULL ?>img/reveillon-24.jpg" alt="Foto reveillon" id="reveillon-24">
         </a>
     </section>
 </main>
