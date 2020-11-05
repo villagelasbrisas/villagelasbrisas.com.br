@@ -119,6 +119,7 @@
 #gallery-content a {
     width: 30%;
     display: flex;
+    transition: 1s;
     max-width: 207px;
     margin: 20px 10px;
     align-items: center;

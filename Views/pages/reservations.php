@@ -46,8 +46,8 @@
             <h2>Reserva</h2>
         </div>
 
-        <div class="alert" style="background: #ffb358; color: #333;" data-aos="flip-up" data-aos-duration="900">
-            <span>⚠</span> Priorize ligação / whatsapp:
+        <div class="alert" id="orange-alert" data-aos="flip-up" data-aos-duration="900">
+            <span>⚠</span> Priorize ligação/WhatsApp:
 
             <a href="tel:+5507141240051">
                 (71) 4124-0051

@@ -48,6 +48,12 @@
     flex-wrap: wrap;
 }
 
+#orange-alert {
+    color: #333;
+    background: #ffb358;
+    border-color: #eea245;
+}
+
 @media(max-width: 478px) {
     #reservations .alert {
         font-size: 14px;
