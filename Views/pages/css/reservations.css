@@ -50,8 +50,8 @@
 
 #orange-alert {
     color: #333;
-    background: #ffb358;
-    border-color: #eea245;
+    background: var(--orange);
+    border-color: var(--orange-dark);
 }
 
 @media(max-width: 478px) {

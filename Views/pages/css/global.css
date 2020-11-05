@@ -1,7 +1,11 @@
 :root {
-    --green: #10AC84;
-    --green-dark: #053327;
-    --orange: #FF9137;
+    --green: #00AA88;
+    --green-dark: #003325;
+    --orange: #FFBB69;
+    --orange-dark: #EEA045;
+    --blue: #D0EEF0;
+    --blue-medium: #BEE5EB;
+    --blue-dark: #004085;
     --white: #FBFBFB;
     --black: #121212;
 }
@@ -42,12 +46,12 @@ body{ background: var(--white); color: var(--black) }
     width: 100%;
     padding: 20px;
     display: flex;
-    color: #004085;
     text-align: center;
     align-items: center;
-    background: #d1ecf1;
     justify-content: center;
-    border: 1px solid #bee5eb;
+    color: var(--blue-dark);
+    background: var(--blue);
+    border: 1px solid var(--blue-medium);
 }
 
 .alert span {
