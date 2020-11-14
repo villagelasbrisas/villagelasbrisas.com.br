@@ -36,7 +36,7 @@
     <link rel="icon" href="<?= INCLUDE_PATH_FULL ?>img/icons/favicon-48.png" sizes="48x48">
     <link rel="icon" href="<?= INCLUDE_PATH_FULL ?>img/icons/favicon-64.png" sizes="64x64">
     <link rel="icon" href="<?= INCLUDE_PATH_FULL ?>img/icons/favicon-128.png" sizes="128x128">
-    <link rel="shortcut icon" href="<?= INCLUDE_PATH_FULL ?>img/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="<?= INCLUDE_PATH_FULL ?>img/icons/favicon.ico" type="image/x-icon"/>
     <!-- CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <?php
