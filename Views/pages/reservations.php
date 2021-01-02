@@ -6,7 +6,7 @@
     </div>
 
     <div id="prices-content" class="aos">
-        <div id="reveillon" data-aos="fade-left" data-aos-duration="600">
+        <!-- <div id="reveillon" data-aos="fade-left" data-aos-duration="600">
             <h3>Pacote de Revéillon 2021</h3>
 
             <p>30/12/2020 à 04/01/2021</p>
@@ -20,7 +20,7 @@
                 <li class="mb-20">Suíte <b>02</b> pessoas, c/ café <b>R$ 1.200,00</b></li>
                 <li class="mb-20">Suíte <b>03</b> pessoas, c/ café <b>R$ 1.400,00</b></li>
             </ul>
-        </div>
+        </div> -->
 
         <div class="aos">
             <div id="summer" data-aos="fade-right" data-aos-duration="600">
@@ -33,7 +33,7 @@
                     <li class="mb-20">Apartamento <b>05</b> pessoas <b>R$ 350,00</b></li>
                     <li class="mb-20">Apartamento <b>04</b> pessoas <b>R$ 300,00</b></li>
                     <li class="mb-20">Apartamento <b>03</b> pessoas <b>R$ 220,00</b></li>
-                    <li class="mb-20">Apartamento <b>02</b> pessoas <b>R$ 160,00</b></li>
+                    <li class="mb-20">Apartamento <b>02</b> pessoas <b>R$ 170,00</b></li>
                 </ul>
             </div>
         </div>
