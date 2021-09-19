@@ -6,34 +6,34 @@
     </div>
 
     <div id="prices-content" class="aos">
-        <!-- <div id="reveillon" data-aos="fade-left" data-aos-duration="600">
-            <h3>Pacote de Revéillon 2021</h3>
+        <div id="reveillon" data-aos="fade-left" data-aos-duration="600">
+            <h3>Pacote de Revéillon 2022</h3>
 
-            <p>30/12/2020 à 04/01/2021</p>
+            <p>31/12/2021 à 04/01/2022</p>
 
             <ul class="mt-50 mb-20">
-                <li class="mb-20">Apartamento <b>06</b> pessoas <b>R$ 2.700,00</b></li>
-                <li class="mb-20">Apartamento <b>05</b> pessoas <b>R$ 2.400,00</b></li>
+                <li class="mb-20">Apartamento <b>06</b> pessoas <b>R$ 2.900,00</b></li>
+                <li class="mb-20">Apartamento <b>05</b> pessoas <b>R$ 2.500,00</b></li>
                 <li class="mb-20">Apartamento <b>04</b> pessoas <b>R$ 2.000,00</b></li>
                 <li class="mb-20">Apartamento <b>03</b> pessoas <b>R$ 1.500,00</b></li>
-                <li class="mb-20">Apartamento <b>02</b> pessoas <b>R$ 1.200,00</b></li>
-                <li class="mb-20">Suíte <b>02</b> pessoas, c/ café <b>R$ 1.200,00</b></li>
-                <li class="mb-20">Suíte <b>03</b> pessoas, c/ café <b>R$ 1.400,00</b></li>
+                <li class="mb-20">Apartamento <b>02</b> pessoas <b>R$ 1.250,00</b></li>
+                <li class="mb-20">Suíte <b>02</b> pessoas, c/ café <b>R$ 1.250,00</b></li>
+                <li class="mb-20">Suíte <b>03</b> pessoas, c/ café <b>R$ 1.500,00</b></li>
             </ul>
-        </div> -->
+        </div>
 
         <div class="aos">
             <div id="summer" data-aos="fade-right" data-aos-duration="600">
-                <h3>Diárias de verão 2021</h3>
+                <h3>Diárias de verão 2022</h3>
 
-                <p>Apartir do dia 04/01/2021</p>
+                <p>Apartir do dia 04/01/2022</p>
 
                 <ul class="mt-50 mb-20">
                     <li class="mb-20">Apartamento <b>06</b> pessoas <b>R$ 420,00</b></li>
                     <li class="mb-20">Apartamento <b>05</b> pessoas <b>R$ 350,00</b></li>
                     <li class="mb-20">Apartamento <b>04</b> pessoas <b>R$ 300,00</b></li>
-                    <li class="mb-20">Apartamento <b>03</b> pessoas <b>R$ 220,00</b></li>
-                    <li class="mb-20">Apartamento <b>02</b> pessoas <b>R$ 170,00</b></li>
+                    <li class="mb-20">Apartamento <b>03</b> pessoas <b>R$ 230,00</b></li>
+                    <li class="mb-20">Apartamento <b>02</b> pessoas <b>R$ 180,00</b></li>
                 </ul>
             </div>
         </div>
