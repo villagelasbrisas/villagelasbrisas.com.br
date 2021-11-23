@@ -98,7 +98,7 @@
         const rulesMenu = document.getElementById('rules-menu');
         rulesMenu.setAttribute('onclick', 'toggleRulesDisplay()');
 
-        const rules = document.getElementById('rules');
+        const rules = document.getElementById('regras');
         rules.setAttribute('onclick', 'toggleRulesDisplay()');
 
         function toggleRulesDisplay() {
