@@ -42,7 +42,7 @@
                 </li>
 
                 <li>
-                    <a href="#rules" id="rules-menu">Regras</a>
+                    <a href="#regras" id="rules-menu">Regras</a>
                 </li>
 
                 <li>
@@ -60,7 +60,7 @@
         </nav>
     </div>
 </header>
-<section id="rules" class="dn">
+<section id="regras" class="dn">
     <div id="rules-content" class="container-sm">
         <div class="close">
             <span>X</span>

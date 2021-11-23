@@ -56,7 +56,7 @@
                 das grandes cidades.
                 <br><br>
 
-                <a href="regras/">Veja nossas regras.</a>
+                <a href="#regras">Veja nossas regras.</a>
             </p>
         </div>
     </section>
@@ -88,7 +88,7 @@
             </a>
         </div>
 
-        <a class="more">Ver mais...</a>
+        <a class="more" href="#ver-mais">Ver mais...</a>
     </section>
 </main>
 

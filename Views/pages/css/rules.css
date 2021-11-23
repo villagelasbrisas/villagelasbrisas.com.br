@@ -1,4 +1,4 @@
-#rules {
+#regras {
     z-index: 1;
     width: 100%;
     height: 100%;
@@ -8,7 +8,7 @@
 }
 
 @media(max-width: 700.9px) {
-    #rules {
+    #regras {
         padding: 0 15px;
     }
 }

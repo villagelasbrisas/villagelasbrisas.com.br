@@ -14,7 +14,7 @@
                         <a href="https://goo.gl/maps/RhnFDyVtwqafpZrW9" target="_blank">
                             Muito bom, literalmente na praia de Barra Grande uma das mais belas da ilha. Fui bem atendido por todos os funcionários.
                         </a>
-                        <h6>Jõao Carlos</h6>
+                        <h3>João Carlos</h3>
                     </div>
                 </div>
 
@@ -23,7 +23,7 @@
                         <a href="https://goo.gl/maps/DTw56VWFo4kzTRpG6" target="_blank">
                             Village Las brisas é top na categoria. Ótimo atendimento, dependências que agradam a todos os gostos, lindas vista para o mar, super recomendo.
                         </a>
-                        <h6>Geovane Rosa</h6>
+                        <h3>Geovane Rosa</h3>
                     </div>
                 </div>
 
@@ -32,7 +32,7 @@
                         <a href="https://goo.gl/maps/x6C1NA7M4c6sWCS16" target="_blank">
                             Lugar tranquilo, ótimas acomodações, muito verde, piscina ótima e exatamente na frente do mar.
                         </a>
-                        <h6>Thaís Bitencourt</h6>
+                        <h3>Thaís Bitencourt</h3>
                     </div>
                 </div>
             </section>
@@ -45,7 +45,7 @@
                     </a>
                 </div>
 
-                <iframe id="google-maps"></iframe>
+                <iframe id="google-maps" title="Mapa da pousada"></iframe>
             </div>
 
             <div id="footer">
