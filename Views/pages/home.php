@@ -6,9 +6,15 @@
         <div id="item-2" class="control-operator"></div>
         <div id="item-3" class="control-operator"></div>
 
-        <section class="item slider-image-1"></section>
-        <section class="item slider-image-2"></section>
-        <section class="item slider-image-3"></section>
+        <section class="item slider-image-1">
+            <h2 class="dn">Banner da piscina</h2>
+        </section>
+        <section class="item slider-image-2">
+            <h2 class="dn">Banner dos quartos e praia ao fundo</h2>
+        </section>
+        <section class="item slider-image-3">
+            <h2 class="dn">Banner da praia</h2>
+        </section>
 
         <div class="controls">
             <a href="#item-1" class="control-button">•</a>
