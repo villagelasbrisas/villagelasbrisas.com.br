@@ -9,7 +9,7 @@
         <div id="reveillon" data-aos="fade-left" data-aos-duration="600">
             <h3>Pacote de Revéillon 2022</h3>
 
-            <p>31/12/2021 à 04/01/2022</p>
+            31/12/2021 à 04/01/2022
 
             <ul class="mt-50 mb-20">
                 <li class="mb-20">Apartamento <b>06</b> pessoas <b>R$ 2.900,00</b></li>
@@ -26,7 +26,7 @@
             <div id="summer" data-aos="fade-right" data-aos-duration="600">
                 <h3>Diárias de verão 2022</h3>
 
-                <p>Apartir do dia 04/01/2022</p>
+                Apartir do dia 04/01/2022
 
                 <ul class="mt-50 mb-20">
                     <li class="mb-20">Apartamento <b>06</b> pessoas <b>R$ 420,00</b></li>
@@ -66,7 +66,7 @@
             <div class="input-block" data-aos-duration="200" data-aos="fade-right">
                 <label for="name">
                     <img src="<?= INCLUDE_PATH_FULL ?>img/icons/person.svg" alt="Ícone usuário" >
-                    <p>Nome:</p>
+                    Nome:
                 </label>
                 <input type="text" name="name" placeholder="Qual seu nome completo?" id="name" required>
             </div>
@@ -74,7 +74,7 @@
             <div class="input-block" data-aos-duration="200" data-aos="fade-left">
                 <label for="email">
                     <img src="<?= INCLUDE_PATH_FULL ?>img/icons/email.svg" alt="Ícone email" >
-                    <p>E-mail:</p>
+                    E-mail:
                 </label>
                 <input type="email" name="email" placeholder="Qual seu e-mail?" id="email" required>
             </div>
@@ -82,7 +82,7 @@
             <div class="input-block" data-aos-duration="200" data-aos="fade-right">
                 <label for="checkin">
                     <img src="<?= INCLUDE_PATH_FULL ?>img/icons/calendar.svg" alt="Ícone calendário" >
-                    <p>Entrada:</p>
+                    Entrada:
                 </label>
                 <input type="date" name="checkin" id="checkin" required>
             </div>
@@ -90,7 +90,7 @@
             <div class="input-block" data-aos-duration="200" data-aos="fade-left">
                 <label for="checkout">
                     <img src="<?= INCLUDE_PATH_FULL ?>img/icons/calendar.svg" alt="Ícone calendário" >
-                    <p>Saída:</p>
+                    Saída:
                 </label>
                 <input type="date" name="checkout" id="checkout" required>
             </div>
@@ -98,7 +98,7 @@
             <div class="input-block" data-aos-duration="200" data-aos="fade-right">
                 <label for="adults">
                     <img src="<?= INCLUDE_PATH_FULL ?>img/icons/adults.svg" alt="Ícone adultos" >
-                    <p>Adultos:</p>
+                    Adultos:
                 </label>
                 <input type="number" name="adults" id="adults" placeholder="Quantos adultos?" required>
             </div>
@@ -106,7 +106,7 @@
             <div class="input-block" data-aos-duration="200" data-aos="fade-left">
                 <label for="kids">
                     <img src="<?= INCLUDE_PATH_FULL ?>img/icons/baby.svg" alt="Ícone criança" >
-                    <p>Crianças (até 05 anos):</p>
+                    Crianças (até 05 anos):
                 </label>
                 <input type="number" name="kids" id="kids" placeholder="Quantidade de crianças até 05 anos de idade">
             </div>
@@ -114,7 +114,7 @@
             <div class="input-block" data-aos-duration="200" data-aos="fade-right">
                 <label for="message">
                     <img src="<?= INCLUDE_PATH_FULL ?>img/icons/chat.svg" alt="Ícone mensagem" >
-                    <p>Mensagem (dúvidas, observações...):</p>
+                    Mensagem (dúvidas, observações...):
                 </label>
                 <textarea name="message" id="message" placeholder="Quer nos perguntar algo?"></textarea>
             </div>
