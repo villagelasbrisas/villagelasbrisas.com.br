@@ -92,7 +92,7 @@
             <li>Levar toalhas do village para a praia.</li>
             <li>Trocar lençóis e tolhas antes de 03 dias.</li>
             <li>Ultrapassar o limite de saída (12:00), sujeito a cobrança de meia diária.</li>
-        </ol>
+        </ul>
 
         <h3>Políticas:</h3>
 

@@ -6,9 +6,9 @@
         <div id="item-2" class="control-operator"></div>
         <div id="item-3" class="control-operator"></div>
 
-        <section class="item slider-image-1"></section>
-        <section class="item slider-image-2"></section>
-        <section class="item slider-image-3"></section>
+        <div class="item slider-image-1"></div>
+        <div class="item slider-image-2"></div>
+        <div class="item slider-image-3"></div>
 
         <div class="controls">
             <a href="#item-1" class="control-button">•</a>
@@ -86,7 +86,7 @@
     </section>
 </main>
 
-<script type="text/javascript">
+<script>
     const galleryMoreButton = document.querySelector('.more');
     const galleryContent =  document.querySelector('#gallery-content');
     const galleryThumbs = galleryContent.querySelectorAll('a');

@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Google SEO -->
-    <meta http-equiv="content-language" content="pt-BR">
     <meta name="target_country" content="br">
     <meta name="author" content="Guilherme Caires - www.github.com/gcairesdev">
     <meta name="reply-to" content="reservas@villagelasbrisas.com.br">

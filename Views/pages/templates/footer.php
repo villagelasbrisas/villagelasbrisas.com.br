@@ -74,7 +74,7 @@
         }
     }
 ?>
-    <script id="aos-script" type="text/javascript">
+    <script id="aos-script">
         AOS.init();
         window.onload = function(){
             var x = document.querySelectorAll('.aos');
@@ -84,7 +84,7 @@
             }
         }
     </script>
-    <script id="toogle-menu-script" type="text/javascript">
+    <script id="toogle-menu-script">
         document.addEventListener("DOMContentLoaded", function(){
             const toggleMenuDiv = document.getElementById('toggle-menu');
             const header = document.querySelector('header');
@@ -94,7 +94,7 @@
             function toggleMenu() { header.classList.toggle('inative');}
         });
     </script>
-    <script id="rules-script" type="text/javascript">
+    <script id="rules-script">
         const rulesMenu = document.getElementById('rules-menu');
         rulesMenu.setAttribute('onclick', 'toggleRulesDisplay()');
 
@@ -110,7 +110,7 @@
 
         document.body.onkeyup = function(e) {(e.which == 27 && !rules.classList.contains('dn')) && toggleRulesDisplay();}
     </script>
-    <script id="whatsapp-script" type="text/javascript">
+    <script id="whatsapp-script">
         (function () {
             var protocol = document.location.protocol;
             var host = "getbutton.io";
