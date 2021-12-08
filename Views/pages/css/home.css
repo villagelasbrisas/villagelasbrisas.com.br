@@ -38,16 +38,16 @@
 }
 
 #about-header #titles p {
-    color: #888;
+    color: #333;
 }
 
 #about-header .green-box {
     padding: 13px;
     border-radius: 5px;
     text-align: center;
-    color: var(--white);
+    color: var(--black);
     font-weight: normal;
-    background: var(--green);
+    border: 2px solid var(--green);
 }
 
 
