@@ -11,7 +11,7 @@
             </a>
         </div>
 
-        <a href="#modal" class="modal-items" onclick="openPhoto(event.target)" data-aos="fade-up" data-aos-duration="900">
+        <a href="#modal" class="modal-items" onclick="openPhoto(event.target)" >
             <img src="<?= INCLUDE_PATH_FULL ?>img/lazer-00.jpg" alt="Foto lazer" id="lazer-00">
             <img src="<?= INCLUDE_PATH_FULL ?>img/lazer-01.jpg" alt="Foto lazer" id="lazer-01">
             <img src="<?= INCLUDE_PATH_FULL ?>img/lazer-02.jpg" alt="Foto lazer" id="lazer-02">

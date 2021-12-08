@@ -1,7 +1,7 @@
 <?php include('templates/header.php') ?>
 
-<main class="container aos">
-    <div class="slider autoplay items-3" data-aos="fade-up" data-aos-duration="700">
+<main class="container">
+    <div class="slider autoplay items-3">
         <div id="item-1" class="control-operator"></div>
         <div id="item-2" class="control-operator"></div>
         <div id="item-3" class="control-operator"></div>
@@ -23,8 +23,8 @@
         </div>
     </div>
 
-    <section id="about" class="container-sm" data-aos="fade-up" data-aos-delay="200">
-        <div id="about-header" data-aos="fade-right" data-aos-delay="400">
+    <section id="about" class="container-sm">
+        <div id="about-header">
             <div id="left">
                 <div class="line"></div>
 
@@ -40,7 +40,7 @@
         <div id="about-content">
             <img id="village-img" src="<?= INCLUDE_PATH_FULL ?>img/village.jpg" alt="O village">
 
-            <p data-aos="fade-left" data-aos-delay="350" data-aos-duration="800">
+            <p>
                 Localizado no bairro de Barra Grande em Vera Cruz na Ilha de Itaparica - BA, o Village Las Brisas
                 dispõe de uma grande área verde, vista de frente para ao mar, área de lazer e acesso gratuito à
                 estacionamento e internet (WI-FI).
@@ -61,7 +61,7 @@
         </div>
     </section>
 
-    <section id="gallery" class="container-sm" data-aos="fade-down" data-aos-duration="600" data-aos-delay="300">
+    <section id="gallery" class="container-sm">
         <div class="title-separator">
             <h2>Galerias</h2>
         </div>

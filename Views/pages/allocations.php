@@ -1,21 +1,21 @@
 <?php include('templates/header.php') ?>
 
 <main class="container">
-    <section id="allocations" class="container-sm aos">
-        <div class="aos">
-            <div class="title-separator" data-aos="fade-right" data-aos-delay="200" data-aos-duration="900">
+    <section id="allocations" class="container-sm">
+        <div>
+            <div class="title-separator">
                 <h2>Acomodações</h2>
             </div>
         </div>
 
-        <div class="aos">
-            <div class="alert" data-aos="flip-up" data-aos-delay="200" data-aos-duration="900">
+        <div>
+            <div class="alert">
                 <span>⚠</span> Toque nas imagens para vê-las maior.
             </div>
         </div>
 
-        <div class="aos">
-            <div class="allocation" data-aos="fade-right" data-aos-delay="300">
+        <div>
+            <div class="allocation">
                 <div class="allocation-content">
                     <a href="#modal" class="modal-items" onclick="openPhoto(event.target)">
                         <img
@@ -76,8 +76,8 @@
             </div>
         </div>
 
-        <div class="aos">
-            <div class="allocation" data-aos="fade-left" data-aos-delay="300">
+        <div>
+            <div class="allocation">
                 <div class="allocation-content">
                     <a href="#modal" class="modal-items" onclick="openPhoto(event.target)">
                         <img
@@ -130,8 +130,8 @@
             </div>
         </div>
 
-        <div class="aos">
-            <div class="allocation" data-aos="fade-right" data-aos-delay="300">
+        <div>
+            <div class="allocation">
                 <div class="allocation-content">
                     <a href="#modal" class="modal-items" onclick="openPhoto(event.target)">
                         <img
@@ -204,8 +204,8 @@
             </div>
         </div>
 
-        <div class="aos">
-            <div class="allocation" data-aos="fade-left" data-aos-delay="300">
+        <div>
+            <div class="allocation">
                 <div class="allocation-content">
                     <a href="#modal" class="modal-items" onclick="openPhoto(event.target)">
                         <img
@@ -257,8 +257,8 @@
             </div>
         </div>
 
-        <div class="aos">
-            <div class="allocation" data-aos="fade-right" data-aos-delay="300">
+        <div>
+            <div class="allocation">
                 <div class="allocation-content">
                     <a href="#modal" class="modal-items" onclick="openPhoto(event.target)">
                         <img
@@ -312,8 +312,8 @@
             </div>
         </div>
 
-        <div class="aos">
-            <div class="allocation" data-aos="fade-left" data-aos-delay="300">
+        <div>
+            <div class="allocation">
                 <div class="allocation-content">
                     <a href="#modal" class="modal-items" onclick="openPhoto(event.target)">
                         <img

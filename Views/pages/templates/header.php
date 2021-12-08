@@ -1,15 +1,15 @@
-<header class="inative aos">
-    <div data-aos="zoom-out" data-aos-duration="600">
+<header class="inative">
+    <div>
         <nav id="white-nav">
             <div id="mobile-menu">
-                <a id="logo" href="<?= INCLUDE_PATH ?>" data-aos="fade-right" data-aos-delay="300" data-aos-duration="300">
+                <a id="logo" href="<?= INCLUDE_PATH ?>">
                     <img src="<?= INCLUDE_PATH_FULL ?>img/logo.png" alt="Logo">
                 </a>
 
                 <div id="toggle-menu">☰</div>
             </div>
 
-            <ul data-aos="fade-left" data-aos-delay="600">
+            <ul>
                 <li>
                     <a href="https://goo.gl/maps/hRRAmpsSShMK7qVC8" target="_blank">
                         <img src="<?= INCLUDE_PATH_FULL ?>img/icons/location.svg" alt="Localização" >
@@ -32,7 +32,7 @@
         </nav>
 
         <nav id="green-nav">
-            <ul data-aos="flip-up" data-aos-delay="600" data-aos-duration="700">
+            <ul>
                 <li>
                     <a href="<?= INCLUDE_PATH ?>">Village</a>
                 </li>

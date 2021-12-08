@@ -37,7 +37,6 @@
     <link rel="icon" href="<?= INCLUDE_PATH_FULL ?>img/icons/favicon-128.png" sizes="128x128">
     <link rel="shortcut icon" href="<?= INCLUDE_PATH_FULL ?>img/icons/favicon.ico" type="image/x-icon"/>
     <!-- CSS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <?php
         if($this->publicStyles) {
             foreach($this->publicStyles as $style) {
@@ -51,8 +50,6 @@
             }
         }
     ?>
-    <!-- JS -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Titulo -->
 	<title><?= $this->title ?></title>
 </head>
