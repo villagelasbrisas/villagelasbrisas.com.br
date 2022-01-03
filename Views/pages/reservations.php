@@ -6,6 +6,7 @@
     </div>
 
     <div id="prices-content">
+        <!--
         <div id="reveillon">
             <h3>Pacote de Revéillon 2022</h3>
 
@@ -21,6 +22,7 @@
                 <li class="mb-20">Suíte <b>03</b> pessoas, c/ café <b>R$ 1.500,00</b></li>
             </ul>
         </div>
+        -->
 
         <div>
             <div id="summer">
@@ -36,6 +38,22 @@
                     <li class="mb-20">Apartamento <b>02</b> pessoas <b>R$ 180,00</b></li>
                 </ul>
             </div>
+        </div>
+
+        <div id="carnaval">
+            <h3>Pacote Carnaval 2022</h3>
+
+            25/02/2022 à 02/03/2022
+
+            <ul class="mt-50 mb-20">
+                <li class="mb-20">Apartamento <b>06</b> pessoas <b>R$ 2.800,00</b></li>
+                <li class="mb-20">Apartamento <b>05</b> pessoas <b>R$ 2.300,00</b></li>
+                <li class="mb-20">Apartamento <b>04</b> pessoas <b>R$ 1.900,00</b></li>
+                <li class="mb-20">Apartamento <b>03</b> pessoas <b>R$ 1.600,00</b></li>
+                <li class="mb-20">Apartamento <b>02</b> pessoas <b>R$ 1.200,00</b></li>
+                <li class="mb-20">Suíte <b>02</b> pessoas, c/ café <b>R$ 1.200,00</b></li>
+                <li class="mb-20">Suíte <b>03</b> pessoas, c/ café <b>R$ 1.600,00</b></li>
+            </ul>
         </div>
     </div>
 </section>
