@@ -6,34 +6,16 @@
     </div>
 
     <div id="prices-content">
-        <div id="reveillon">
-            <h3>Pacote de Revéillon 2021</h3>
-
-            <p>30/12/2020 à 04/01/2021</p>
-
-            <ul class="mt-50 mb-20">
-                <li class="mb-20">Apartamento <b>06</b> pessoas <b>R$ 2.700,00</b></li>
-                <li class="mb-20">Apartamento <b>05</b> pessoas <b>R$ 2.400,00</b></li>
-                <li class="mb-20">Apartamento <b>04</b> pessoas <b>R$ 2.000,00</b></li>
-                <li class="mb-20">Apartamento <b>03</b> pessoas <b>R$ 1.500,00</b></li>
-                <li class="mb-20">Apartamento <b>02</b> pessoas <b>R$ 1.200,00</b></li>
-                <li class="mb-20">Suíte <b>02</b> pessoas, c/ café <b>R$ 1.200,00</b></li>
-                <li class="mb-20">Suíte <b>03</b> pessoas, c/ café <b>R$ 1.400,00</b></li>
-            </ul>
-        </div>
-
         <div>
             <div id="summer">
-                <h3>Diárias de verão 2021</h3>
-
-                <p>Apartir do dia 04/01/2021</p>
+                <h3>Diárias de 2022</h3>
 
                 <ul class="mt-50 mb-20">
                     <li class="mb-20">Apartamento <b>06</b> pessoas <b>R$ 420,00</b></li>
-                    <li class="mb-20">Apartamento <b>05</b> pessoas <b>R$ 350,00</b></li>
-                    <li class="mb-20">Apartamento <b>04</b> pessoas <b>R$ 300,00</b></li>
-                    <li class="mb-20">Apartamento <b>03</b> pessoas <b>R$ 220,00</b></li>
-                    <li class="mb-20">Apartamento <b>02</b> pessoas <b>R$ 160,00</b></li>
+                    <li class="mb-20">Apartamento <b>05</b> pessoas <b>R$ 330,00</b></li>
+                    <li class="mb-20">Apartamento <b>04</b> pessoas <b>R$ 280,00</b></li>
+                    <li class="mb-20">Apartamento <b>03</b> pessoas <b>R$ 230,00</b></li>
+                    <li class="mb-20">Apartamento <b>02</b> pessoas <b>R$ 180,00</b></li>
                 </ul>
             </div>
         </div>

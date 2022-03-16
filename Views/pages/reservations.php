@@ -6,54 +6,18 @@
     </div>
 
     <div id="prices-content">
-        <!--
-        <div id="reveillon">
-            <h3>Pacote de Revéillon 2022</h3>
-
-            31/12/2021 à 04/01/2022
-
-            <ul class="mt-50 mb-20">
-                <li class="mb-20">Apartamento <b>06</b> pessoas <b>R$ 2.900,00</b></li>
-                <li class="mb-20">Apartamento <b>05</b> pessoas <b>R$ 2.500,00</b></li>
-                <li class="mb-20">Apartamento <b>04</b> pessoas <b>R$ 2.000,00</b></li>
-                <li class="mb-20">Apartamento <b>03</b> pessoas <b>R$ 1.500,00</b></li>
-                <li class="mb-20">Apartamento <b>02</b> pessoas <b>R$ 1.250,00</b></li>
-                <li class="mb-20">Suíte <b>02</b> pessoas, c/ café <b>R$ 1.250,00</b></li>
-                <li class="mb-20">Suíte <b>03</b> pessoas, c/ café <b>R$ 1.500,00</b></li>
-            </ul>
-        </div>
-        -->
-
         <div>
             <div id="summer">
-                <h3>Diárias de verão 2022</h3>
-
-                Apartir do dia 04/01/2022
+                <h3>Diárias de 2022</h3>
 
                 <ul class="mt-50 mb-20">
                     <li class="mb-20">Apartamento <b>06</b> pessoas <b>R$ 420,00</b></li>
-                    <li class="mb-20">Apartamento <b>05</b> pessoas <b>R$ 350,00</b></li>
-                    <li class="mb-20">Apartamento <b>04</b> pessoas <b>R$ 300,00</b></li>
+                    <li class="mb-20">Apartamento <b>05</b> pessoas <b>R$ 330,00</b></li>
+                    <li class="mb-20">Apartamento <b>04</b> pessoas <b>R$ 280,00</b></li>
                     <li class="mb-20">Apartamento <b>03</b> pessoas <b>R$ 230,00</b></li>
                     <li class="mb-20">Apartamento <b>02</b> pessoas <b>R$ 180,00</b></li>
                 </ul>
             </div>
-        </div>
-
-        <div id="carnaval">
-            <h3>Pacote Carnaval 2022</h3>
-
-            25/02/2022 à 02/03/2022
-
-            <ul class="mt-50 mb-20">
-                <li class="mb-20">Apartamento <b>06</b> pessoas <b>R$ 2.800,00</b></li>
-                <li class="mb-20">Apartamento <b>05</b> pessoas <b>R$ 2.300,00</b></li>
-                <li class="mb-20">Apartamento <b>04</b> pessoas <b>R$ 1.900,00</b></li>
-                <li class="mb-20">Apartamento <b>03</b> pessoas <b>R$ 1.600,00</b></li>
-                <li class="mb-20">Apartamento <b>02</b> pessoas <b>R$ 1.200,00</b></li>
-                <li class="mb-20">Suíte <b>02</b> pessoas, c/ café <b>R$ 1.200,00</b></li>
-                <li class="mb-20">Suíte <b>03</b> pessoas, c/ café <b>R$ 1.600,00</b></li>
-            </ul>
         </div>
     </div>
 </section>
