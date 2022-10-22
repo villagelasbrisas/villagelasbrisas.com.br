@@ -7,7 +7,7 @@
 Site para divulgação da pousada, e facilitar a demonstração de fotos, valores e regras do estabelecimento.
 
 <p align="center">
-    <img src=".github/img/header.png"></img>
+    <img src=".github/readme.png"></img>
 </p>
 
 ## 🎯 Objetivo
