@@ -210,37 +210,17 @@
                     <h2>Reserva</h2>
                 </div>
         
-                <div class="alert" id="orange-alert">
-                    <span>⚠</span> Priorize ligação/WhatsApp:
-        
-                    <a href="tel:+5507141240051">
-                        (71) 4124-0051
-                    </a>
-        
-                    <a href="tel:+55071988519487">
-                        (71) 9 8851-9487
-                    </a>
-                </div>
-        
                 <div class="alert">
                     <span>⚠</span> Crianças com mais de 05 anos, contam como adulto.
                 </div>
         
-                <form method="POST" action="/reserva">
+                <form id="form">
                     <div class="input-block">
                         <label for="name">
                             <img src="../assets/img/icons/person.svg" alt="Ícone usuário" >
                             Nome:
                         </label>
-                        <input type="text" name="name" placeholder="Qual seu nome completo?" id="name" required>
-                    </div>
-        
-                    <div class="input-block">
-                        <label for="email">
-                            <img src="../assets/img/icons/email.svg" alt="Ícone email" >
-                            E-mail:
-                        </label>
-                        <input type="email" name="email" placeholder="Qual seu e-mail?" id="email" required>
+                        <input type="text" name="name" placeholder="Qual seu nome?" id="name" required>
                     </div>
         
                     <div class="input-block">
@@ -284,7 +264,7 @@
                     </div>
         
                     <div id="send">
-                        <input type="submit" name="mail-sended" value="Enviar">
+                        <input type="submit" name="send" value="Enviar">
                     </div>
                 </form>
             </section>
@@ -403,6 +383,33 @@
             var destination = document.getElementsByTagName('script')[0];
             destination.parentNode.insertBefore(script, destination);
         })();
+    </script>
+    <script id="form-reservation">
+        const form = document.querySelector('#form');
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            let link = 'https://api.whatsapp.com/send/?phone=55071988519487&type=phone_number&app_absent=0&text=';
+            
+            const formData = new FormData(form);
+            const name = formData.get('name');
+            const adults = formData.get('adults');
+            const kids = formData.get('kids');
+            const checkinArray = formData.get('checkin').split('-');
+            const checkin = `${checkinArray[2]}/${checkinArray[1]}/${checkinArray[0]}`;
+            const checkoutArray = formData.get('checkout').split('-');
+            const checkout = `${checkoutArray[2]}/${checkoutArray[1]}/${checkoutArray[0]}`;
+            const message = formData.get('message');
+
+            let text = `🥳 *Reserva do site* 🥳%0A%0A`;
+            text += `👉 *Nome*: ${name}%0A`;
+            text += `👍 *Entrada*: ${checkin}%0A`;
+            text += `👋 *Saída*: ${checkout}%0A`;
+            text += `👫 *Adultos*: ${adults}%0A`;
+            text += kids ? `👶 *Crianças (até 5 anos)*: ${kids}%0A` : '';
+            text += message ? `💬 *Mensagem*: ${message}` : '';
+                
+            window.location.href = link + text;
+        });
     </script>
     <!-- </Footer> -->
 </body>
